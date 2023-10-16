@@ -1,0 +1,3 @@
+C:\mingw64\bin\cmake.exe -E rm -f CMakeFiles\overcooked.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\overcooked.dir/objects.a @CMakeFiles\overcooked.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\overcooked.dir/objects.a -Wl,--no-whole-archive -o D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\overcooked.exe -Wl,--out-implib,D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\StaticLibs\libovercooked.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\overcooked.dir\linkLibs.rsp

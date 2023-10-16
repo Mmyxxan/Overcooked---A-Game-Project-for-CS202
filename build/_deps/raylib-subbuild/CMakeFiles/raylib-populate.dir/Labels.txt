@@ -1,0 +1,14 @@
+# Target labels
+ raylib-populate
+# Source files and their labels
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test.rule
+D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update.rule
