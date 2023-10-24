@@ -51,7 +51,7 @@ add_library(Lib INTERFACE)
 add_subdirectory(src)
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 11)
 target_include_directories(${PROJECT_NAME} PUBLIC Lib INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
-target_link_libraries(${PROJECT_NAME} PUBLIC raylib raylib_cpp source)
+target_link_libraries(${PROJECT_NAME} PUBLIC raylib raylib_cpp source Lib)
 
 # Web Configurations
 if (${PLATFORM} STREQUAL "Web")

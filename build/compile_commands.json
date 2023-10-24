@@ -175,7 +175,7 @@
 },
 {
   "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
-  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/source.dir/includes_CXX.rsp -g -o CMakeFiles\\source.dir\\source.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\source.cpp",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/source.dir/includes_CXX.rsp -g -o CMakeFiles\\source.dir\\source.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\source.cpp",
   "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/source.cpp",
   "output": "src/CMakeFiles/source.dir/source.cpp.obj"
 }

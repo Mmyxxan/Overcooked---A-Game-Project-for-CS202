@@ -299,7 +299,8 @@ _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/clean
 # Target rules for target src/CMakeFiles/source.dir
 
 # All Build rule for target.
-src/CMakeFiles/source.dir/all:
+src/CMakeFiles/source.dir/all: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/all
+src/CMakeFiles/source.dir/all: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\source.dir\build.make src/CMakeFiles/source.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\source.dir\build.make src/CMakeFiles/source.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=33,34 "Built target source"
@@ -307,7 +308,7 @@ src/CMakeFiles/source.dir/all:
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/source.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/source.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles 0
 .PHONY : src/CMakeFiles/source.dir/rule
