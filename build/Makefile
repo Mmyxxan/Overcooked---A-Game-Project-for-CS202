@@ -233,17 +233,17 @@ update_mappings/fast:
 .PHONY : update_mappings/fast
 
 #=============================================================================
-# Target rules for targets named source
+# Target rules for targets named myexe
 
 # Build rule for target.
-source: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source
-.PHONY : source
+myexe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 myexe
+.PHONY : myexe
 
 # fast build rule for target.
-source/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\source.dir\build.make src/CMakeFiles/source.dir/build
-.PHONY : source/fast
+myexe/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/build
+.PHONY : myexe/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -285,9 +285,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... update_mappings
 	@echo ... glfw
+	@echo ... myexe
 	@echo ... overcooked
 	@echo ... raylib
-	@echo ... source
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

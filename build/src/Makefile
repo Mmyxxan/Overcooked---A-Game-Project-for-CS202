@@ -181,42 +181,114 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/source.dir/rule:
-	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/source.dir/rule
-.PHONY : src/CMakeFiles/source.dir/rule
+src/CMakeFiles/myexe.dir/rule:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/myexe.dir/rule
+.PHONY : src/CMakeFiles/myexe.dir/rule
 
 # Convenience name for target.
-source: src/CMakeFiles/source.dir/rule
-.PHONY : source
+myexe: src/CMakeFiles/myexe.dir/rule
+.PHONY : myexe
 
 # fast build rule for target.
-source/fast:
-	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\source.dir\build.make src/CMakeFiles/source.dir/build
-.PHONY : source/fast
+myexe/fast:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/build
+.PHONY : myexe/fast
 
-source.obj: source.cpp.obj
-.PHONY : source.obj
+CameraGame.obj: CameraGame.cpp.obj
+.PHONY : CameraGame.obj
 
 # target to build an object file
-source.cpp.obj:
-	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\source.dir\build.make src/CMakeFiles/source.dir/source.cpp.obj
-.PHONY : source.cpp.obj
+CameraGame.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CameraGame.cpp.obj
+.PHONY : CameraGame.cpp.obj
 
-source.i: source.cpp.i
-.PHONY : source.i
+CameraGame.i: CameraGame.cpp.i
+.PHONY : CameraGame.i
 
 # target to preprocess a source file
-source.cpp.i:
-	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\source.dir\build.make src/CMakeFiles/source.dir/source.cpp.i
-.PHONY : source.cpp.i
+CameraGame.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CameraGame.cpp.i
+.PHONY : CameraGame.cpp.i
 
-source.s: source.cpp.s
-.PHONY : source.s
+CameraGame.s: CameraGame.cpp.s
+.PHONY : CameraGame.s
 
 # target to generate assembly for a file
-source.cpp.s:
-	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\source.dir\build.make src/CMakeFiles/source.dir/source.cpp.s
-.PHONY : source.cpp.s
+CameraGame.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CameraGame.cpp.s
+.PHONY : CameraGame.cpp.s
+
+ControllableObject.obj: ControllableObject.cpp.obj
+.PHONY : ControllableObject.obj
+
+# target to build an object file
+ControllableObject.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj
+.PHONY : ControllableObject.cpp.obj
+
+ControllableObject.i: ControllableObject.cpp.i
+.PHONY : ControllableObject.i
+
+# target to preprocess a source file
+ControllableObject.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ControllableObject.cpp.i
+.PHONY : ControllableObject.cpp.i
+
+ControllableObject.s: ControllableObject.cpp.s
+.PHONY : ControllableObject.s
+
+# target to generate assembly for a file
+ControllableObject.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ControllableObject.cpp.s
+.PHONY : ControllableObject.cpp.s
+
+Controller.obj: Controller.cpp.obj
+.PHONY : Controller.obj
+
+# target to build an object file
+Controller.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Controller.cpp.obj
+.PHONY : Controller.cpp.obj
+
+Controller.i: Controller.cpp.i
+.PHONY : Controller.i
+
+# target to preprocess a source file
+Controller.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Controller.cpp.i
+.PHONY : Controller.cpp.i
+
+Controller.s: Controller.cpp.s
+.PHONY : Controller.s
+
+# target to generate assembly for a file
+Controller.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Controller.cpp.s
+.PHONY : Controller.cpp.s
+
+Object.obj: Object.cpp.obj
+.PHONY : Object.obj
+
+# target to build an object file
+Object.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Object.cpp.obj
+.PHONY : Object.cpp.obj
+
+Object.i: Object.cpp.i
+.PHONY : Object.i
+
+# target to preprocess a source file
+Object.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Object.cpp.i
+.PHONY : Object.cpp.i
+
+Object.s: Object.cpp.s
+.PHONY : Object.s
+
+# target to generate assembly for a file
+Object.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Object.cpp.s
+.PHONY : Object.cpp.s
 
 # Help Target
 help:
@@ -232,10 +304,19 @@ help:
 	@echo ... package
 	@echo ... package_source
 	@echo ... rebuild_cache
-	@echo ... source
-	@echo ... source.obj
-	@echo ... source.i
-	@echo ... source.s
+	@echo ... myexe
+	@echo ... CameraGame.obj
+	@echo ... CameraGame.i
+	@echo ... CameraGame.s
+	@echo ... ControllableObject.obj
+	@echo ... ControllableObject.i
+	@echo ... ControllableObject.s
+	@echo ... Controller.obj
+	@echo ... Controller.i
+	@echo ... Controller.s
+	@echo ... Object.obj
+	@echo ... Object.i
+	@echo ... Object.s
 .PHONY : help
 
 

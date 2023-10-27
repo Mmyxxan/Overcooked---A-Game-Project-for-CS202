@@ -93,7 +93,7 @@ overcooked_EXTERNAL_OBJECTS =
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: CMakeFiles/overcooked.dir/main.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: CMakeFiles/overcooked.dir/build.make
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: _deps/raylib-build/raylib/libraylib.a
-D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libsource.a
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: _deps/raylib-build/raylib/libraylib.a
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/overcooked.exe: CMakeFiles/overcooked.dir/linkLibs.rsp

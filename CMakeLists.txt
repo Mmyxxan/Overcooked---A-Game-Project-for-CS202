@@ -47,11 +47,15 @@ endforeach()
 # This is the main part:
 set(SOURCES main.cpp)
 add_executable(${PROJECT_NAME} ${SOURCES})
+# target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_SOURCE_DIR}/include)
+# Create an INTERFACE library target for your header-only library
 add_library(Lib INTERFACE)
+
+# Specify the include directory where your library headers are located
+target_include_directories(Lib INTERFACE ${CMAKE_SOURCE_DIR}/src/include)
 add_subdirectory(src)
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 11)
-target_include_directories(${PROJECT_NAME} PUBLIC Lib INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
-target_link_libraries(${PROJECT_NAME} PUBLIC raylib raylib_cpp source Lib)
+target_link_libraries(${PROJECT_NAME} PUBLIC raylib raylib_cpp myexe Lib)
 
 # Web Configurations
 if (${PLATFORM} STREQUAL "Web")

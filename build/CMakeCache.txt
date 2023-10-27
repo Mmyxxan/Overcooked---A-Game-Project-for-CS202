@@ -453,13 +453,13 @@ raylib_cpp_IS_TOP_LEVEL:STATIC=OFF
 raylib_cpp_SOURCE_DIR:STATIC=D:/cs163/Overcooked---A-Game-Project-for-CS202/build/_deps/raylib_cpp-src
 
 //Value Computed by CMake
-source_BINARY_DIR:STATIC=D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src
+src_BINARY_DIR:STATIC=D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src
 
 //Value Computed by CMake
-source_IS_TOP_LEVEL:STATIC=OFF
+src_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-source_SOURCE_DIR:STATIC=D:/cs163/Overcooked---A-Game-Project-for-CS202/src
+src_SOURCE_DIR:STATIC=D:/cs163/Overcooked---A-Game-Project-for-CS202/src
 
 
 ########################

@@ -1,0 +1,2 @@
+C:\mingw64\bin\ar.exe qc D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\StaticLibs\libmyexe.a CMakeFiles/myexe.dir/CameraGame.cpp.obj CMakeFiles/myexe.dir/ControllableObject.cpp.obj CMakeFiles/myexe.dir/Controller.cpp.obj CMakeFiles/myexe.dir/Object.cpp.obj
+C:\mingw64\bin\ranlib.exe D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\StaticLibs\libmyexe.a
