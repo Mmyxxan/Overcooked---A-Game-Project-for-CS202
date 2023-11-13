@@ -3,9 +3,15 @@
 #include <ControllableObject.hpp>
 #include <Controller.hpp>
 #include <CameraGame.hpp>
+#include <Timer.hpp>
+#include <Cooker.hpp>
+#include <Area.hpp>
+#include <Mediator.hpp>
+#include <Food.hpp>
 
 int main(void)
 {
+    // raylib::Window* = new raylib::Window();
     const int screenWidth = 1400;
     const int screenHeight = 800;
 
@@ -16,15 +22,25 @@ int main(void)
     Controller con;
     ControllableObject* chef;
     Object* knife;
-    chef = new ControllableObject("little_chef_overcooked_like.glb", {0.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {8.0f, 8.0f, 8.0f});
-    knife = new Object("knife.glb", {0.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {0.03f, 0.03f, 0.03f});
+    chef = new ControllableObject("little_chef_overcooked_like.glb", {-3.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {8.0f, 8.0f, 8.0f});
+    knife = new Object("knife.glb", {-3.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {0.04f, 0.04f, 0.04f});
     // knife transform one time and rotate just like its attach
     chef -> setModel();
-    chef -> setSpace({0.0f, -2.0f, 0.0f});
+    chef -> setSpace({1.0f, -2.5f, 0.0f});
     knife -> setModel();
+    knife -> getModel().transform = MatrixTranslate(1.0f, 0.0f, 0.0f);
+
+    knife -> rotate(Axis::y, -PI/2);
+    knife -> rotate(Axis::z, -PI/2);
+    knife -> rotate(Axis::x, -PI/2);
+    knife -> rotate(Axis::y, PI);
+    knife -> rotate(Axis::z, -PI);
+
     con.registerObject(chef);
     con.registerObject(knife);
     chef -> attach(knife);
+    // chef -> attach(nullptr);
+    chef -> removeArea({-1.0f, -4.0f}, 5.0f, 13.0f);
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
@@ -32,12 +48,20 @@ int main(void)
         //----------------------------------------------------------------------------------
         // TODO: Update your variables here
         //----------------------------------------------------------------------------------
-
         // Draw
         //----------------------------------------------------------------------------------
         BeginDrawing();
 
             ClearBackground(RAYWHITE);
+            BeginMode3D(*CameraGame::getCamera());
+            // Draw walls
+            DrawCube({2.0f, 2.0f, 2.0f}, 3.0f, 12.0f, 6.0f, YELLOW);
+            
+            // Draw floor
+            for (int i = 0; i < 30; i++) {
+                for (int j = 0; j < 30; j++) DrawCube({(float) i - 15.0f, (float) j - 15.0f, -3.0f}, 1.0f, 1.0f, 1.0f, ((i + j) % 2 == 0) ? BLACK : WHITE);
+            }
+
             // UpdateCamera(&camera, CAMERA_FIRST_PERSON);
             // UpdateCamera(&camera, CAMERA_FREE);
             // int left right behind face
@@ -71,7 +95,7 @@ int main(void)
             chef -> display();
             // std::cout << CheckCollisionBoxes(knife -> getBoundingBox(), chef -> getBoundingBox());
             DrawFPS(10, 10);
-
+            EndMode3D();
         EndDrawing();
         //----------------------------------------------------------------------------------
     }

@@ -175,6 +175,12 @@
 },
 {
   "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Area.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Area.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Area.cpp",
+  "output": "src/CMakeFiles/myexe.dir/Area.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
   "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\CameraGame.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\CameraGame.cpp",
   "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/CameraGame.cpp",
   "output": "src/CMakeFiles/myexe.dir/CameraGame.cpp.obj"
@@ -193,8 +199,32 @@
 },
 {
   "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Cooker.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Cooker.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Cooker.cpp",
+  "output": "src/CMakeFiles/myexe.dir/Cooker.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Food.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Food.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Food.cpp",
+  "output": "src/CMakeFiles/myexe.dir/Food.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Mediator.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Mediator.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Mediator.cpp",
+  "output": "src/CMakeFiles/myexe.dir/Mediator.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
   "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Object.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Object.cpp",
   "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Object.cpp",
   "output": "src/CMakeFiles/myexe.dir/Object.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Timer.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Timer.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Timer.cpp",
+  "output": "src/CMakeFiles/myexe.dir/Timer.cpp.obj"
 }
 ]

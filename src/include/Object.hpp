@@ -1,10 +1,14 @@
 #pragma once
 #include <Libraries.hpp>
+#include "Area.hpp"
 #include "CameraGame.hpp"
 
 class Object {
+protected:    
+    Model model;
+    std::string file;
+    // std::string description;
 private: 
-    std::string description;
     Vector3 activePos;
     Vector3 space;
     bool activated;
@@ -12,13 +16,15 @@ private:
     Vector3 axis;
     Vector3 scale;
     float direction;
-    std::string file;
-    Model model;
     Camera3D cam;
     Object* att;
+protected:
+    Area* area;
 public: 
     Object() {}
-    Object(std::string file, Vector3 position, Vector3 axis, float direction, Vector3 scale): file(file), position(position), axis(axis), direction(direction), scale(scale), description("object"), space(position), att(NULL) {}
+    Object(std::string file, Vector3 position, Vector3 axis, float direction, Vector3 scale): file(file), position(position), axis(axis), direction(direction), scale(scale), space(position), att(NULL) {
+        area = new Area(200, 200, false);
+    }
     Vector3 getPos();
     Vector3 getAxis();
     float getDirection();
@@ -31,20 +37,26 @@ public:
     void setDirection(float dir);
     void setModel();
     void setScale(Vector3 scale);
-    void setFile(const std::string path);
+    virtual void setFile(const std::string path);
     // virtual void display();
     // virtual void setFile (const std::string path);
-    void display();
+    virtual void display();
     void setCamera();
     Camera3D getCamera();
     virtual void update(const char event);
-    std::string getDescription();
+    virtual void update(float x, float y);
+    // std::string getDescription();
+    virtual std::string getFile();
     BoundingBox getBoundingBox();
     void setSpace(Vector3 space);
     Vector3 getSpace();
     virtual void attach(Object* o);
     Object* getAttachment();
-    virtual void deattach();
+    // virtual 
+    void deattach();
+    void rotate(char rotation, float angle);
+    void removeArea(Vector2 root, float height, float width);
+    virtual void Process();
     // void animate();
 };
 

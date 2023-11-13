@@ -194,6 +194,30 @@ myexe/fast:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/build
 .PHONY : myexe/fast
 
+Area.obj: Area.cpp.obj
+.PHONY : Area.obj
+
+# target to build an object file
+Area.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Area.cpp.obj
+.PHONY : Area.cpp.obj
+
+Area.i: Area.cpp.i
+.PHONY : Area.i
+
+# target to preprocess a source file
+Area.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Area.cpp.i
+.PHONY : Area.cpp.i
+
+Area.s: Area.cpp.s
+.PHONY : Area.s
+
+# target to generate assembly for a file
+Area.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Area.cpp.s
+.PHONY : Area.cpp.s
+
 CameraGame.obj: CameraGame.cpp.obj
 .PHONY : CameraGame.obj
 
@@ -266,6 +290,78 @@ Controller.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Controller.cpp.s
 .PHONY : Controller.cpp.s
 
+Cooker.obj: Cooker.cpp.obj
+.PHONY : Cooker.obj
+
+# target to build an object file
+Cooker.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Cooker.cpp.obj
+.PHONY : Cooker.cpp.obj
+
+Cooker.i: Cooker.cpp.i
+.PHONY : Cooker.i
+
+# target to preprocess a source file
+Cooker.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Cooker.cpp.i
+.PHONY : Cooker.cpp.i
+
+Cooker.s: Cooker.cpp.s
+.PHONY : Cooker.s
+
+# target to generate assembly for a file
+Cooker.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Cooker.cpp.s
+.PHONY : Cooker.cpp.s
+
+Food.obj: Food.cpp.obj
+.PHONY : Food.obj
+
+# target to build an object file
+Food.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Food.cpp.obj
+.PHONY : Food.cpp.obj
+
+Food.i: Food.cpp.i
+.PHONY : Food.i
+
+# target to preprocess a source file
+Food.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Food.cpp.i
+.PHONY : Food.cpp.i
+
+Food.s: Food.cpp.s
+.PHONY : Food.s
+
+# target to generate assembly for a file
+Food.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Food.cpp.s
+.PHONY : Food.cpp.s
+
+Mediator.obj: Mediator.cpp.obj
+.PHONY : Mediator.obj
+
+# target to build an object file
+Mediator.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Mediator.cpp.obj
+.PHONY : Mediator.cpp.obj
+
+Mediator.i: Mediator.cpp.i
+.PHONY : Mediator.i
+
+# target to preprocess a source file
+Mediator.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Mediator.cpp.i
+.PHONY : Mediator.cpp.i
+
+Mediator.s: Mediator.cpp.s
+.PHONY : Mediator.s
+
+# target to generate assembly for a file
+Mediator.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Mediator.cpp.s
+.PHONY : Mediator.cpp.s
+
 Object.obj: Object.cpp.obj
 .PHONY : Object.obj
 
@@ -290,6 +386,30 @@ Object.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Object.cpp.s
 .PHONY : Object.cpp.s
 
+Timer.obj: Timer.cpp.obj
+.PHONY : Timer.obj
+
+# target to build an object file
+Timer.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Timer.cpp.obj
+.PHONY : Timer.cpp.obj
+
+Timer.i: Timer.cpp.i
+.PHONY : Timer.i
+
+# target to preprocess a source file
+Timer.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Timer.cpp.i
+.PHONY : Timer.cpp.i
+
+Timer.s: Timer.cpp.s
+.PHONY : Timer.s
+
+# target to generate assembly for a file
+Timer.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Timer.cpp.s
+.PHONY : Timer.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -305,6 +425,9 @@ help:
 	@echo ... package_source
 	@echo ... rebuild_cache
 	@echo ... myexe
+	@echo ... Area.obj
+	@echo ... Area.i
+	@echo ... Area.s
 	@echo ... CameraGame.obj
 	@echo ... CameraGame.i
 	@echo ... CameraGame.s
@@ -314,9 +437,21 @@ help:
 	@echo ... Controller.obj
 	@echo ... Controller.i
 	@echo ... Controller.s
+	@echo ... Cooker.obj
+	@echo ... Cooker.i
+	@echo ... Cooker.s
+	@echo ... Food.obj
+	@echo ... Food.i
+	@echo ... Food.s
+	@echo ... Mediator.obj
+	@echo ... Mediator.i
+	@echo ... Mediator.s
 	@echo ... Object.obj
 	@echo ... Object.i
 	@echo ... Object.s
+	@echo ... Timer.obj
+	@echo ... Timer.i
+	@echo ... Timer.s
 .PHONY : help
 
 

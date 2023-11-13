@@ -1,8 +1,9 @@
 #include <ControllableObject.hpp>
+
 // posofAttachment = posofChef + vectorpos chênh lệch;
-std::string ControllableObject::getDescription() {
-    return description;
-}
+// std::string ControllableObject::getDescription() {
+//     return description;
+// }
 
 void ControllableObject::setKeyLeft(char x) {
     left = x;
@@ -57,33 +58,45 @@ void ControllableObject::setDown() {
     setDirection(0.0f);
 }
 void ControllableObject::setMoveLeft() {
+    if (!(area -> isInArea(getPos().x - speed, getPos().y))) return;
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
         tmp -> setPos({tmp -> getPos().x - speed, tmp -> getPos().y, tmp -> getPos().z});
     }
     setPos({getPos().x - speed, getPos().y, getPos().z});
+    CameraGame::getCamera() -> target = getPos();
+    CameraGame::getCamera() -> position = Vector3Add(CameraGame::getCamera() -> position, {-speed, 0.0f, 0.0f});
 }
 void ControllableObject::setMoveRight() {
+    if (!(area -> isInArea(getPos().x + speed, getPos().y))) return;
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
         tmp -> setPos({tmp -> getPos().x + speed, tmp -> getPos().y, tmp -> getPos().z});
     }
     setPos({getPos().x + speed, getPos().y, getPos().z});
+    CameraGame::getCamera() -> target = getPos();
+    CameraGame::getCamera() -> position = Vector3Add(CameraGame::getCamera() -> position, {speed, 0.0f, 0.0f});
 }
 void ControllableObject::setMoveUp() {
+    if (!(area -> isInArea(getPos().x, getPos().y + speed))) return;
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
         tmp -> setPos({tmp -> getPos().x, tmp -> getPos().y + speed, tmp -> getPos().z});
     }
     setPos({getPos().x, getPos().y + speed, getPos().z});
+    CameraGame::getCamera() -> target = getPos();
+    CameraGame::getCamera() -> position = Vector3Add(CameraGame::getCamera() -> position, {0.0f, 0.0f + speed, 0.0f});
 }
 void ControllableObject::setMoveDown() {
+    if (!(area -> isInArea(getPos().x, getPos().y - speed))) return;
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
         tmp -> setPos({tmp -> getPos().x, tmp -> getPos().y - speed, tmp -> getPos().z});
         // I ought to wrap this setPos?
     }
     setPos({getPos().x, getPos().y - speed, getPos().z});
+    CameraGame::getCamera() -> target = getPos();
+    CameraGame::getCamera() -> position = Vector3Add(CameraGame::getCamera() -> position, {0.0f, 0.0f - speed, 0.0f});
 }
 void ControllableObject::update(const char event) {
     // if (undo) {
