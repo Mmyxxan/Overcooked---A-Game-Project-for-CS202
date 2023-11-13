@@ -22,9 +22,18 @@ int main(void)
     Controller con;
     ControllableObject* chef;
     Object* knife;
+    Cooker* pot;
     chef = new ControllableObject("little_chef_overcooked_like.glb", {-3.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {8.0f, 8.0f, 8.0f});
     knife = new Object("knife.glb", {-3.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {0.04f, 0.04f, 0.04f});
+    pot = new Cooker();
     // knife transform one time and rotate just like its attach
+    pot -> setModel();
+    pot -> setFile("onion.glb");
+    pot -> setAxis({0.0f, 0.0f, 1.0f});
+    pot -> setDirection(0.0f);
+    pot -> setPos({0.0f, 2.0f, 1.0f});
+    pot -> setScale({2.5f, 2.5f, 2.5f});
+
     chef -> setModel();
     chef -> setSpace({1.0f, -2.5f, 0.0f});
     knife -> setModel();
@@ -37,7 +46,7 @@ int main(void)
     knife -> rotate(Axis::z, -PI);
 
     con.registerObject(chef);
-    con.registerObject(knife);
+    // con.registerObject(knife);
     chef -> attach(knife);
     // chef -> attach(nullptr);
     chef -> removeArea({-1.0f, -4.0f}, 5.0f, 13.0f);
@@ -93,6 +102,7 @@ int main(void)
             con.notifyObservers();
             knife -> display();
             chef -> display();
+            pot -> display();
             // std::cout << CheckCollisionBoxes(knife -> getBoundingBox(), chef -> getBoundingBox());
             DrawFPS(10, 10);
             EndMode3D();

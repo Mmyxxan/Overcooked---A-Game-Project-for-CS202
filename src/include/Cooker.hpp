@@ -15,7 +15,7 @@ private:
     int state;
     // State* state;
 public:
-    Cooker() {
+    Cooker() : Object("cooker") {
         area = new Area(30, 30, false);
         timer = nullptr;
     }

@@ -20,7 +20,7 @@ public:
     FoodState(std::string description): description(description) {
         df = DisplayFactory::getDF();
     }
-    virtual void action() = 0;
+    // virtual void action() = 0;
     virtual std::string getFile() = 0;
 };
 
@@ -39,20 +39,28 @@ private:
     FoodState* state;
     Food* f;
 public:
-    void display();
+    // void display();
     std::string getFile();
-    Food(std::string description) : description(description), f(NULL) {
+    Food(std::string description) : Object("food"), description(description), f(NULL) {
         state = new MotionlessState(description);
     }
-    Food(Food* f) : f(f) {
-        state = new MotionlessState( getDescription());
+    Food(Object* o): Object("food") {
+        if (o -> description == "food") {
+            state = new MotionlessState(getDescription());
+        }
+        // else copy constructor;
+    }
+    Food(Food* f) : Object("food"), f(f) {
+        state = new MotionlessState(getDescription());
     }
     void setDescription();
     std::string getDescription();
 };
 
 class CookerWrapper : public Food {
+public:
     CookerWrapper() : Food("cookerwrapper") {}
+    CookerWrapper(Object* o) : Food(o) {} 
     CookerWrapper(Food* f) : Food(f) {} 
 };
 

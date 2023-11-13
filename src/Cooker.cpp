@@ -1,10 +1,16 @@
 #include <Cooker.hpp>
 
 void Cooker::display() {
-    if (timer -> finish()) {
+    if (timer && timer -> finish()) {
+        Object* temp = m -> getAttachment();
+        temp = new CookerWrapper(temp);
         // o = new CookerWrapper(o); another mediator notifies Food and it changes itself
         state = State::rest;
+        timer -> stop();
+        delete timer;
+        timer = nullptr;
     }
+    DrawModelEx(model, position, axis, direction, scale, WHITE);
     // display statement;
 }
 
@@ -30,7 +36,8 @@ void Cooker::Process() {
         return;
     }
     if (!timer) {
-        timer = new Timer(0, 20);
+        timer = new Timer(0, 10);
+        timer -> start();
         attach(m -> getAttachment());
         return;
     }

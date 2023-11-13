@@ -7,8 +7,7 @@ class Object {
 protected:    
     Model model;
     std::string file;
-    // std::string description;
-private: 
+// private: 
     Vector3 activePos;
     Vector3 space;
     bool activated;
@@ -21,7 +20,9 @@ private:
 protected:
     Area* area;
 public: 
-    Object() {}
+    std::string description;
+    Object() {description = "object";}
+    Object(std::string description) : description(description) {}
     Object(std::string file, Vector3 position, Vector3 axis, float direction, Vector3 scale): file(file), position(position), axis(axis), direction(direction), scale(scale), space(position), att(NULL) {
         area = new Area(200, 200, false);
     }

@@ -4,15 +4,16 @@ DisplayFactory* DisplayFactory::df = NULL;
 
 std::string DisplayFactory::getFile(std::string description) {
     if (description == "knifecookerwrapper") return "cooker.glb";
+    return "kirby.glb";
 }
 
 std::string MotionlessState::getFile() {
-    df -> getFile(description);
+    return df -> getFile(description);
 }
 
-void Food::display() {
-    state -> action();
-}
+// void Food::display() {
+//     state -> action();
+// }
 
 std::string Food::getFile() {
     return state -> getFile();
