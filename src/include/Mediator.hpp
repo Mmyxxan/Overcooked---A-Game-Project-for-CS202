@@ -14,6 +14,8 @@ public:
     void notifyObjects();
     void assignBack(Object* o);
     Object* getAttachment();
+    void drop();
+    Object* getAttachmentfrom();
     float getChefX();
     float getChefY();
 };

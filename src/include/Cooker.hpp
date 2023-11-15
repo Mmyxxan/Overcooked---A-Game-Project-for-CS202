@@ -10,15 +10,16 @@ class Cooker : public Object
 {
 private:
     Mediator* m;
-    Area* area;
     Timer* timer;
     int state;
     // State* state;
 public:
-    Cooker() : Object("cooker") {
-        area = new Area(30, 30, false);
-        timer = nullptr;
+    Cooker() : Object("cooker"), timer(NULL), state(0) {
+        area = new Area(200, 200, false);
     }
+    int getState();
+    // void setState();
+    void setMediator(Mediator* m);
     void display();
     void attach(Object* o);
     void update(float x, float y);

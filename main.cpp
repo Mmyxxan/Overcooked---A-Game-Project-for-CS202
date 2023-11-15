@@ -8,6 +8,7 @@
 #include <Area.hpp>
 #include <Mediator.hpp>
 #include <Food.hpp>
+#include <Storer.hpp>
 
 int main(void)
 {
@@ -20,19 +21,37 @@ int main(void)
     SetTargetFPS(50);               // Set our game to run at 60 frames-per-second
     //--------------------------------------------------------------------------------------
     Controller con;
+    Mediator* m;
     ControllableObject* chef;
     Object* knife;
-    Cooker* pot;
+    Storer* pot;
+    Object* onion;
     chef = new ControllableObject("little_chef_overcooked_like.glb", {-3.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {8.0f, 8.0f, 8.0f});
     knife = new Object("knife.glb", {-3.0f, 0.0f, 0.0f}, {0.0f, 0.0f, 1.0f}, 0.0f, {0.04f, 0.04f, 0.04f});
-    pot = new Cooker();
+    pot = new Storer();
+    onion = new Food("onion");
+    m = new Mediator(chef);
     // knife transform one time and rotate just like its attach
+    
+    pot -> setFile("cooker.glb");
     pot -> setModel();
-    pot -> setFile("onion.glb");
     pot -> setAxis({0.0f, 0.0f, 1.0f});
     pot -> setDirection(0.0f);
     pot -> setPos({0.0f, 2.0f, 1.0f});
-    pot -> setScale({2.5f, 2.5f, 2.5f});
+    pot -> setScale({0.05f, 0.05f, 0.05f});
+    // chef -> removeArea({-1.0f, -4.0f}, 5.0f, 13.0f);
+    pot -> removeArea({0.0f, 2.0f}, 3.0f, 4.0f);
+    pot -> setMediator(m);
+    pot -> setSpace(pot -> getPos());
+
+    
+    onion -> setFile("onion.glb");
+    onion -> setModel();
+    onion -> setAxis({0.0f, 0.0f, 1.0f});
+    onion -> setDirection(0.0f);
+    onion -> setPos({0.0f, 2.0f, 1.0f});
+    onion -> setScale({0.005f, 0.005f, 0.005f});
+
 
     chef -> setModel();
     chef -> setSpace({1.0f, -2.5f, 0.0f});
@@ -47,9 +66,10 @@ int main(void)
 
     con.registerObject(chef);
     // con.registerObject(knife);
-    chef -> attach(knife);
+    // chef -> attach(knife);
+    chef -> attach(onion);
     // chef -> attach(nullptr);
-    chef -> removeArea({-1.0f, -4.0f}, 5.0f, 13.0f);
+    
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
@@ -100,9 +120,11 @@ int main(void)
             // DrawText("Welcome to the third dimension!", 10, 40, 20, DARKGRAY);
             con.control();
             con.notifyObservers();
-            knife -> display();
+            m -> notifyObjects();
+            // knife -> display();
             chef -> display();
             pot -> display();
+            // onion -> display();
             // std::cout << CheckCollisionBoxes(knife -> getBoundingBox(), chef -> getBoundingBox());
             DrawFPS(10, 10);
             EndMode3D();

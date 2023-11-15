@@ -8,6 +8,7 @@
 #include <chrono>
 #include <thread>
 #include <atomic>
+#include <queue>
 
 
 namespace Axis {
@@ -23,4 +24,10 @@ namespace State {
     const int rest = 0;
     const int activated = 1;
     const int functioning = 2;
+    const int invalid = 3;
+}
+
+namespace Customers {
+    // const int time = 100; // seconds
+    const int outdated = 4;
 }

@@ -14,15 +14,15 @@ int Timer::getSecond() {
 
 void Timer::start() {
     if (isRunning.load()) {
-        timerThread = std::thread([this] { countdown(); });
+        timerThread = new std::thread([this] { countdown(); });
     }
 }
 
 void Timer::stop() {
     if (isRunning.load()) {
         isRunning.store(false);
-        if (timerThread.joinable()) {
-            timerThread.join();
+        if (timerThread -> joinable()) {
+            timerThread -> join();
         }
     }
 }

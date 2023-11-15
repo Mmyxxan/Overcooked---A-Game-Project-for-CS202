@@ -242,6 +242,30 @@ CameraGame.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CameraGame.cpp.s
 .PHONY : CameraGame.cpp.s
 
+Checker.obj: Checker.cpp.obj
+.PHONY : Checker.obj
+
+# target to build an object file
+Checker.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Checker.cpp.obj
+.PHONY : Checker.cpp.obj
+
+Checker.i: Checker.cpp.i
+.PHONY : Checker.i
+
+# target to preprocess a source file
+Checker.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Checker.cpp.i
+.PHONY : Checker.cpp.i
+
+Checker.s: Checker.cpp.s
+.PHONY : Checker.s
+
+# target to generate assembly for a file
+Checker.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Checker.cpp.s
+.PHONY : Checker.cpp.s
+
 ControllableObject.obj: ControllableObject.cpp.obj
 .PHONY : ControllableObject.obj
 
@@ -386,6 +410,30 @@ Object.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Object.cpp.s
 .PHONY : Object.cpp.s
 
+Storer.obj: Storer.cpp.obj
+.PHONY : Storer.obj
+
+# target to build an object file
+Storer.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Storer.cpp.obj
+.PHONY : Storer.cpp.obj
+
+Storer.i: Storer.cpp.i
+.PHONY : Storer.i
+
+# target to preprocess a source file
+Storer.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Storer.cpp.i
+.PHONY : Storer.cpp.i
+
+Storer.s: Storer.cpp.s
+.PHONY : Storer.s
+
+# target to generate assembly for a file
+Storer.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Storer.cpp.s
+.PHONY : Storer.cpp.s
+
 Timer.obj: Timer.cpp.obj
 .PHONY : Timer.obj
 
@@ -431,6 +479,9 @@ help:
 	@echo ... CameraGame.obj
 	@echo ... CameraGame.i
 	@echo ... CameraGame.s
+	@echo ... Checker.obj
+	@echo ... Checker.i
+	@echo ... Checker.s
 	@echo ... ControllableObject.obj
 	@echo ... ControllableObject.i
 	@echo ... ControllableObject.s
@@ -449,6 +500,9 @@ help:
 	@echo ... Object.obj
 	@echo ... Object.i
 	@echo ... Object.s
+	@echo ... Storer.obj
+	@echo ... Storer.i
+	@echo ... Storer.s
 	@echo ... Timer.obj
 	@echo ... Timer.i
 	@echo ... Timer.s

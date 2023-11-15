@@ -1,6 +1,18 @@
 #include <Object.hpp>
 #include <CameraGame.hpp>
 
+int Object::getState() {
+    return 0;
+}
+
+std::string Object::selfAssess() {
+    return "";
+}
+
+int Object::getID() {
+    return -1;
+}
+
 std::string Object::getFile() {
     return file;
 }
@@ -40,9 +52,10 @@ BoundingBox Object::getBoundingBox() {
     return GetMeshBoundingBox(model.meshes[0]);
 }
 
-// std::string Object::getDescription(){
-//     return description;
-// }
+std::string Object::getDescription(){
+    std::cout << "Object's description" << '\n';
+    return description;
+}
 
 void Object::update(const char event) {
     
@@ -70,7 +83,7 @@ void Object::unset() {
     activated = false;
 }
 void Object::setPos(Vector3 pos) {
-    position = pos;
+      position = pos;
 }
 void Object::setAxis(Vector3 axis) {
     this -> axis = axis;
@@ -79,6 +92,7 @@ void Object::setDirection(float dir) {
     direction = dir;
 }
 void Object::setModel() {
+    std::cerr << file << " loaded successfully!" << '\n'; 
     model = LoadModel(getFile().c_str());
     // model.transform = MatrixTranslate(axis.x, axis.y, axis.z);
     // model.transform = MatrixMultiply(MatrixRotateX(-PI/2), model.transform);

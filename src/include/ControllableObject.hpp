@@ -42,6 +42,7 @@ public:
     void setMoveUp();
     void setMoveDown();
     void update(const char event);
-    std::string getDescription();
+    void attach(Object* o);
+    // std::string getDescription();
     // display: setMove()... Move() function call
 };

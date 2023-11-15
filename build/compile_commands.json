@@ -187,6 +187,12 @@
 },
 {
   "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Checker.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Checker.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Checker.cpp",
+  "output": "src/CMakeFiles/myexe.dir/Checker.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
   "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\ControllableObject.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\ControllableObject.cpp",
   "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/ControllableObject.cpp",
   "output": "src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj"
@@ -220,6 +226,12 @@
   "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Object.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Object.cpp",
   "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Object.cpp",
   "output": "src/CMakeFiles/myexe.dir/Object.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\Storer.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\Storer.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Storer.cpp",
+  "output": "src/CMakeFiles/myexe.dir/Storer.cpp.obj"
 },
 {
   "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",

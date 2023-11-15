@@ -21,8 +21,8 @@ protected:
     Area* area;
 public: 
     std::string description;
-    Object() {description = "object";}
-    Object(std::string description) : description(description) {}
+    Object() : att(NULL) {description = "object";}
+    Object(std::string description) : att(NULL), description(description) {}
     Object(std::string file, Vector3 position, Vector3 axis, float direction, Vector3 scale): file(file), position(position), axis(axis), direction(direction), scale(scale), space(position), att(NULL) {
         area = new Area(200, 200, false);
     }
@@ -46,7 +46,7 @@ public:
     Camera3D getCamera();
     virtual void update(const char event);
     virtual void update(float x, float y);
-    // std::string getDescription();
+    virtual std::string getDescription();
     virtual std::string getFile();
     BoundingBox getBoundingBox();
     void setSpace(Vector3 space);
@@ -58,6 +58,9 @@ public:
     void rotate(char rotation, float angle);
     void removeArea(Vector2 root, float height, float width);
     virtual void Process();
+    virtual int getID();
+    virtual std::string selfAssess();
+    virtual int getState();
     // void animate();
 };
 

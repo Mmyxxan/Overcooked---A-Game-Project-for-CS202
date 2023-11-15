@@ -5,6 +5,15 @@
 //     return description;
 // }
 
+void ControllableObject::attach(Object* o) {
+    std::cerr << "att initialized" << std::endl;
+    if (att) return;
+    att = o;
+    if (!o) return;
+    // o -> setPos(Vector3Add(getPos(), getSpace()));
+    // knife transform, multiply matrix as parameters
+}
+
 void ControllableObject::setKeyLeft(char x) {
     left = x;
 }

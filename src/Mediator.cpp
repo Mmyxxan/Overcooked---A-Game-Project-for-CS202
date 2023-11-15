@@ -1,13 +1,23 @@
 #include <Mediator.hpp>
 
+void Mediator::drop() {
+    att = NULL;
+}
+
 Object* Mediator::getAttachment() {
+    return att;
+}
+
+Object* Mediator::getAttachmentfrom() {
     att = chef -> getAttachment();
     chef -> deattach();
     return att;
 }
 
 void Mediator::assignBack(Object* o) {
+    o -> display();
     chef -> attach(o);
+    std::cerr << "done assign back" << '\n';
 }
 
 void Mediator::registerObject(Object* o) {
