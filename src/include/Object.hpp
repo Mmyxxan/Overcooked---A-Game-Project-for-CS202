@@ -2,10 +2,18 @@
 #include <Libraries.hpp>
 #include "Area.hpp"
 #include "CameraGame.hpp"
+#include "Map.hpp"
+#include "ModelFactory.hpp"
+// #include "PauseGame.hpp"
+// #include "Checker.hpp"
+#ifndef OBJECT_HPP
+#define OBJECT_HPP
+
+class Mediator;
 
 class Object {
-protected:    
-    Model model;
+public:
+    Model* model;
     std::string file;
 // private: 
     Vector3 activePos;
@@ -17,19 +25,32 @@ protected:
     float direction;
     Camera3D cam;
     Object* att;
-protected:
+public:
     Area* area;
+    Map* map;
+    // ModelFactory* mf;
 public: 
+    // void registerPause(PauseGame* pause);
+    virtual void pause();
+    virtual std::set<std::string> getSet();
+    void registerArea(Map* map);
     std::string description;
-    Object() : att(NULL) {description = "object";}
-    Object(std::string description) : att(NULL), description(description) {}
+    Object() : att(NULL), file(""), space({0.0f, 0.0f, 0.0f}), position({0.0f, 0.0f, 0.0f}), axis({0.0f, 0.0f, 0.0f}), scale({0.0f, 0.0f, 0.0f}), direction(0.0f), area(NULL) {
+        description = "object"; 
+        // mf = new ModelFactory();
+    }
+    Object(std::string description) : att(NULL), description(description), file(""), position({1.0f, 1.0f, 1.0f}), axis({1.0f, 1.0f, 1.0f}), scale({1.0f, 1.0f, 1.0f}), direction(90.0f) {
+        // mf = new ModelFactory();
+    }
     Object(std::string file, Vector3 position, Vector3 axis, float direction, Vector3 scale): file(file), position(position), axis(axis), direction(direction), scale(scale), space(position), att(NULL) {
         area = new Area(200, 200, false);
+        // mf = new ModelFactory();
     }
+    virtual void setMediator(Mediator* m);
     Vector3 getPos();
     Vector3 getAxis();
     float getDirection();
-    Model getModel();
+    Model& getModel();
     Vector3 getScale();
     void set();
     void unset();
@@ -63,6 +84,7 @@ public:
     virtual int getState();
     // void animate();
 };
+#endif
 
 // class ObjectController {};
 

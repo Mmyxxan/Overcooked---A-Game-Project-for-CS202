@@ -3,12 +3,18 @@
 #include "raylib-cpp.hpp"
 #include <utility>
 #include <iostream>
+#include <fstream>
 #include <string>
 #include <vector>
 #include <chrono>
 #include <thread>
 #include <atomic>
 #include <queue>
+#include <set>
+#ifndef LIBRARIES_HPP
+#define LIBRARIES_HPP
+
+// load file class, foodholder, samplefood holder
 
 
 namespace Axis {
@@ -25,9 +31,13 @@ namespace State {
     const int activated = 1;
     const int functioning = 2;
     const int invalid = 3;
+    const int outdated = 4;
+    const int open = 5;
 }
 
 namespace Customers {
-    // const int time = 100; // seconds
+    const int time = 100; // seconds
     const int outdated = 4;
 }
+
+#endif

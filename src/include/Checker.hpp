@@ -1,122 +1,116 @@
 #pragma once
+#ifndef CHECKER_HPP
+#define CHECKER_HPP
 #include "Libraries.hpp"
-#include "Mediator.hpp"
 #include "Timer.hpp"
-#include "Food.hpp"
-#include "Object.hpp"
+// #include "Factory.hpp"
+
+// class Area;
+
+// gamemanager check if checker is time left;
+// create sample food for customer
+// pause game, pause timer on observer pattern, timer mediator,... pause controller, mediator, change screen
+
+
+
+class Instruction {
+// public: virtual std::string getInstruction(Object* o);
+};
+
+class FoodInstruction : public Instruction {
+
+};
 
 // remaining: pool object, holder, factory, state of customer, level, random stuff, game manager stuff, food factory and manager, give points and create sample food
 
 //customer holder but food factory, state Pattern is important
+// resolve by interface of checker forward, and concrete checker afterwards
+//Factory
 
-class Table : public Object {
-    Table() : Object("table") {}
-    // init table space, set space, lot of space;
-};
+// share the same interface as (CustomerFactory or) customer Holder
+// class CustomerQueue {
+//     // here
+// private:
+//     CustomerFactory* cf;
+// public:
+//     CustomerQueue() : cf(NULL) {}
+//     // set initialized position for customer and takeaway customer, but change takaway customer position when a customer is popped
 
-class StorageHolder {
+// };
 
-};
+// class Customer;
+// template <int i> 
+// class SpaceHolder;
 
-class KitchenHolder {
+// class Particle {
+// private:
+//     Vector3 pos;
+//     Particle* next;
+//     bool valid;
+// public:
+//     Particle() : pos({0.0f, 0.0f, 0.0f}), next(NULL), valid(false) {}
+//     void setNext(Particle* next);
+//     Particle* getNext();
+//     void setValid();
+//     void setInvalid();
+// };
 
-};
-
-class TableHolder {
-    // pos of table 1, table 2, ...
-};
-
-class Level {
-    Level() {}
-};
+// the holders are not all the same
+// template <int i> 
 
 // class Table {
 
 // };
-
 // checker and display factory singleton
+
 class Checker {
     // user benefits
 private:
     // a map from string to sample food, if there is a mapping, assessed true. or assess from queue.top()
-    int score;
+    int time;
+    
     Timer* timer;
 public:
+    int score;
     // new thread to observe all objects and assess player
-    Checker() : score(0), timer(NULL) {
+    Checker() : score(0), timer(NULL), time(0) {
         // random sample food from file
+        // timer = new Timer(0, Level::getTime());
+        // timer -> start();
     }
+    Checker(int time) : score(0), timer(NULL), time(time) {
+        // random sample food from file
+        // timer = new Timer(0, Level::getTime());
+        // timer -> start();
+    }
+    void pause();
+    void reset();
+    void start();
+    void manage(); 
+    // throughout gameplay to check if time left,...
     void update(const std::string description); 
     bool isTimeleft();
 };
+
 
 // display, recipe, point factory
 // Food Factory, Customer Factory
 
 // template class
 // new mediator for checker
-class MediatorChecker {
-private:
-    Object* att;
-    ControllableObject* chef;
-    Checker* checker;
-    std::vector <Object*> obj;
-public:
-    MediatorChecker(): obj({}), chef(NULL), checker(NULL), att(NULL) {}
-    void registerObject(Object* o);
-    void deregisterObject(int id);
-    void notifyObjects();
-    void notifyChecker(std::string description);
-    float getChefX();
-    float getChefY();
-    Object* getAttachment();
-    void drop();
-    Object* getAttachmentfrom();
-};
 
 // static get food from food factory
-class Customer : public Object {
-private:
-    // State* state; // state has eating timer, personality time, old young and appearance 
-    int ID;
-    MediatorChecker* mc;
-    SampleFood* f;
-    int state;
-public:
-    Customer(int ID) : Object("customer"), mc(NULL), ID(ID), f(NULL), state(0) {
-        mc = new MediatorChecker();
-    }
-    void setMediatorChecker(MediatorChecker* mc);
-    int getID();
-    std::string selfAssess();
-    void Process();
-    void update(float x, float y);
-    bool isInArea(float x, float y);
-    int getState();
-};
 
-class CustomerHolder {
-private:
-    int curID;
-public:
-    CustomerHolder() : curID(0) {
+// template<int i>
 
-    }
-    // set some customer into invalid state of pool object;
-};
+// object on controllable: observer pattern mediator to send message about register on chef, and deregister
+// mediator of controllable and the object -> composition, has A. attachment container and skeleton pattern
 
-class GameManager {
-    // int level; // namespace level
-    // all initialized and draw here;
-private:
-    TableHolder* tables;
-    StorageHolder* storage;
-    KitchenHolder* kitchen;
-    CustomerHolder* customer;
-    Level* l;
-    Checker* c;
-public:
-    GameManager() : l(NULL), c(NULL), tables(NULL), storage(NULL), customer(NULL), kitchen(NULL) {}
+// buffer of any type?
 
-    void init();    
-};
+// sender = this, receiver = ? sender in this function. first message by mediator.
+// deregister from both objects to each other
+// brief message so that can be reused, 1 message - 1 single action like drop attachment, take buffer, admit buffer.
+
+
+#endif

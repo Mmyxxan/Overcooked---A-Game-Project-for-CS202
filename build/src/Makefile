@@ -218,6 +218,30 @@ Area.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Area.cpp.s
 .PHONY : Area.cpp.s
 
+Button.obj: Button.cpp.obj
+.PHONY : Button.obj
+
+# target to build an object file
+Button.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Button.cpp.obj
+.PHONY : Button.cpp.obj
+
+Button.i: Button.cpp.i
+.PHONY : Button.i
+
+# target to preprocess a source file
+Button.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Button.cpp.i
+.PHONY : Button.cpp.i
+
+Button.s: Button.cpp.s
+.PHONY : Button.s
+
+# target to generate assembly for a file
+Button.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Button.cpp.s
+.PHONY : Button.cpp.s
+
 CameraGame.obj: CameraGame.cpp.obj
 .PHONY : CameraGame.obj
 
@@ -265,6 +289,30 @@ Checker.s: Checker.cpp.s
 Checker.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Checker.cpp.s
 .PHONY : Checker.cpp.s
+
+CompositeString.obj: CompositeString.cpp.obj
+.PHONY : CompositeString.obj
+
+# target to build an object file
+CompositeString.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CompositeString.cpp.obj
+.PHONY : CompositeString.cpp.obj
+
+CompositeString.i: CompositeString.cpp.i
+.PHONY : CompositeString.i
+
+# target to preprocess a source file
+CompositeString.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CompositeString.cpp.i
+.PHONY : CompositeString.cpp.i
+
+CompositeString.s: CompositeString.cpp.s
+.PHONY : CompositeString.s
+
+# target to generate assembly for a file
+CompositeString.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CompositeString.cpp.s
+.PHONY : CompositeString.cpp.s
 
 ControllableObject.obj: ControllableObject.cpp.obj
 .PHONY : ControllableObject.obj
@@ -338,6 +386,126 @@ Cooker.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Cooker.cpp.s
 .PHONY : Cooker.cpp.s
 
+Customer.obj: Customer.cpp.obj
+.PHONY : Customer.obj
+
+# target to build an object file
+Customer.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Customer.cpp.obj
+.PHONY : Customer.cpp.obj
+
+Customer.i: Customer.cpp.i
+.PHONY : Customer.i
+
+# target to preprocess a source file
+Customer.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Customer.cpp.i
+.PHONY : Customer.cpp.i
+
+Customer.s: Customer.cpp.s
+.PHONY : Customer.s
+
+# target to generate assembly for a file
+Customer.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Customer.cpp.s
+.PHONY : Customer.cpp.s
+
+CustomerDesire.obj: CustomerDesire.cpp.obj
+.PHONY : CustomerDesire.obj
+
+# target to build an object file
+CustomerDesire.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj
+.PHONY : CustomerDesire.cpp.obj
+
+CustomerDesire.i: CustomerDesire.cpp.i
+.PHONY : CustomerDesire.i
+
+# target to preprocess a source file
+CustomerDesire.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerDesire.cpp.i
+.PHONY : CustomerDesire.cpp.i
+
+CustomerDesire.s: CustomerDesire.cpp.s
+.PHONY : CustomerDesire.s
+
+# target to generate assembly for a file
+CustomerDesire.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerDesire.cpp.s
+.PHONY : CustomerDesire.cpp.s
+
+CustomerFactory.obj: CustomerFactory.cpp.obj
+.PHONY : CustomerFactory.obj
+
+# target to build an object file
+CustomerFactory.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj
+.PHONY : CustomerFactory.cpp.obj
+
+CustomerFactory.i: CustomerFactory.cpp.i
+.PHONY : CustomerFactory.i
+
+# target to preprocess a source file
+CustomerFactory.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerFactory.cpp.i
+.PHONY : CustomerFactory.cpp.i
+
+CustomerFactory.s: CustomerFactory.cpp.s
+.PHONY : CustomerFactory.s
+
+# target to generate assembly for a file
+CustomerFactory.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerFactory.cpp.s
+.PHONY : CustomerFactory.cpp.s
+
+CustomerHolder.obj: CustomerHolder.cpp.obj
+.PHONY : CustomerHolder.obj
+
+# target to build an object file
+CustomerHolder.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj
+.PHONY : CustomerHolder.cpp.obj
+
+CustomerHolder.i: CustomerHolder.cpp.i
+.PHONY : CustomerHolder.i
+
+# target to preprocess a source file
+CustomerHolder.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerHolder.cpp.i
+.PHONY : CustomerHolder.cpp.i
+
+CustomerHolder.s: CustomerHolder.cpp.s
+.PHONY : CustomerHolder.s
+
+# target to generate assembly for a file
+CustomerHolder.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/CustomerHolder.cpp.s
+.PHONY : CustomerHolder.cpp.s
+
+DisplayFactory.obj: DisplayFactory.cpp.obj
+.PHONY : DisplayFactory.obj
+
+# target to build an object file
+DisplayFactory.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj
+.PHONY : DisplayFactory.cpp.obj
+
+DisplayFactory.i: DisplayFactory.cpp.i
+.PHONY : DisplayFactory.i
+
+# target to preprocess a source file
+DisplayFactory.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/DisplayFactory.cpp.i
+.PHONY : DisplayFactory.cpp.i
+
+DisplayFactory.s: DisplayFactory.cpp.s
+.PHONY : DisplayFactory.s
+
+# target to generate assembly for a file
+DisplayFactory.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/DisplayFactory.cpp.s
+.PHONY : DisplayFactory.cpp.s
+
 Food.obj: Food.cpp.obj
 .PHONY : Food.obj
 
@@ -361,6 +529,222 @@ Food.s: Food.cpp.s
 Food.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Food.cpp.s
 .PHONY : Food.cpp.s
+
+FoodFactory.obj: FoodFactory.cpp.obj
+.PHONY : FoodFactory.obj
+
+# target to build an object file
+FoodFactory.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj
+.PHONY : FoodFactory.cpp.obj
+
+FoodFactory.i: FoodFactory.cpp.i
+.PHONY : FoodFactory.i
+
+# target to preprocess a source file
+FoodFactory.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/FoodFactory.cpp.i
+.PHONY : FoodFactory.cpp.i
+
+FoodFactory.s: FoodFactory.cpp.s
+.PHONY : FoodFactory.s
+
+# target to generate assembly for a file
+FoodFactory.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/FoodFactory.cpp.s
+.PHONY : FoodFactory.cpp.s
+
+FoodIterator.obj: FoodIterator.cpp.obj
+.PHONY : FoodIterator.obj
+
+# target to build an object file
+FoodIterator.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj
+.PHONY : FoodIterator.cpp.obj
+
+FoodIterator.i: FoodIterator.cpp.i
+.PHONY : FoodIterator.i
+
+# target to preprocess a source file
+FoodIterator.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/FoodIterator.cpp.i
+.PHONY : FoodIterator.cpp.i
+
+FoodIterator.s: FoodIterator.cpp.s
+.PHONY : FoodIterator.s
+
+# target to generate assembly for a file
+FoodIterator.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/FoodIterator.cpp.s
+.PHONY : FoodIterator.cpp.s
+
+GameAudio.obj: GameAudio.cpp.obj
+.PHONY : GameAudio.obj
+
+# target to build an object file
+GameAudio.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameAudio.cpp.obj
+.PHONY : GameAudio.cpp.obj
+
+GameAudio.i: GameAudio.cpp.i
+.PHONY : GameAudio.i
+
+# target to preprocess a source file
+GameAudio.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameAudio.cpp.i
+.PHONY : GameAudio.cpp.i
+
+GameAudio.s: GameAudio.cpp.s
+.PHONY : GameAudio.s
+
+# target to generate assembly for a file
+GameAudio.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameAudio.cpp.s
+.PHONY : GameAudio.cpp.s
+
+GameInstruction.obj: GameInstruction.cpp.obj
+.PHONY : GameInstruction.obj
+
+# target to build an object file
+GameInstruction.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj
+.PHONY : GameInstruction.cpp.obj
+
+GameInstruction.i: GameInstruction.cpp.i
+.PHONY : GameInstruction.i
+
+# target to preprocess a source file
+GameInstruction.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameInstruction.cpp.i
+.PHONY : GameInstruction.cpp.i
+
+GameInstruction.s: GameInstruction.cpp.s
+.PHONY : GameInstruction.s
+
+# target to generate assembly for a file
+GameInstruction.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameInstruction.cpp.s
+.PHONY : GameInstruction.cpp.s
+
+GameManager.obj: GameManager.cpp.obj
+.PHONY : GameManager.obj
+
+# target to build an object file
+GameManager.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameManager.cpp.obj
+.PHONY : GameManager.cpp.obj
+
+GameManager.i: GameManager.cpp.i
+.PHONY : GameManager.i
+
+# target to preprocess a source file
+GameManager.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameManager.cpp.i
+.PHONY : GameManager.cpp.i
+
+GameManager.s: GameManager.cpp.s
+.PHONY : GameManager.s
+
+# target to generate assembly for a file
+GameManager.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/GameManager.cpp.s
+.PHONY : GameManager.cpp.s
+
+KitchenHolder.obj: KitchenHolder.cpp.obj
+.PHONY : KitchenHolder.obj
+
+# target to build an object file
+KitchenHolder.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj
+.PHONY : KitchenHolder.cpp.obj
+
+KitchenHolder.i: KitchenHolder.cpp.i
+.PHONY : KitchenHolder.i
+
+# target to preprocess a source file
+KitchenHolder.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/KitchenHolder.cpp.i
+.PHONY : KitchenHolder.cpp.i
+
+KitchenHolder.s: KitchenHolder.cpp.s
+.PHONY : KitchenHolder.s
+
+# target to generate assembly for a file
+KitchenHolder.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/KitchenHolder.cpp.s
+.PHONY : KitchenHolder.cpp.s
+
+Level.obj: Level.cpp.obj
+.PHONY : Level.obj
+
+# target to build an object file
+Level.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Level.cpp.obj
+.PHONY : Level.cpp.obj
+
+Level.i: Level.cpp.i
+.PHONY : Level.i
+
+# target to preprocess a source file
+Level.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Level.cpp.i
+.PHONY : Level.cpp.i
+
+Level.s: Level.cpp.s
+.PHONY : Level.s
+
+# target to generate assembly for a file
+Level.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Level.cpp.s
+.PHONY : Level.cpp.s
+
+Manager.obj: Manager.cpp.obj
+.PHONY : Manager.obj
+
+# target to build an object file
+Manager.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Manager.cpp.obj
+.PHONY : Manager.cpp.obj
+
+Manager.i: Manager.cpp.i
+.PHONY : Manager.i
+
+# target to preprocess a source file
+Manager.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Manager.cpp.i
+.PHONY : Manager.cpp.i
+
+Manager.s: Manager.cpp.s
+.PHONY : Manager.s
+
+# target to generate assembly for a file
+Manager.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Manager.cpp.s
+.PHONY : Manager.cpp.s
+
+Map.obj: Map.cpp.obj
+.PHONY : Map.obj
+
+# target to build an object file
+Map.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Map.cpp.obj
+.PHONY : Map.cpp.obj
+
+Map.i: Map.cpp.i
+.PHONY : Map.i
+
+# target to preprocess a source file
+Map.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Map.cpp.i
+.PHONY : Map.cpp.i
+
+Map.s: Map.cpp.s
+.PHONY : Map.s
+
+# target to generate assembly for a file
+Map.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Map.cpp.s
+.PHONY : Map.cpp.s
 
 Mediator.obj: Mediator.cpp.obj
 .PHONY : Mediator.obj
@@ -386,6 +770,54 @@ Mediator.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Mediator.cpp.s
 .PHONY : Mediator.cpp.s
 
+MediatorChecker.obj: MediatorChecker.cpp.obj
+.PHONY : MediatorChecker.obj
+
+# target to build an object file
+MediatorChecker.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj
+.PHONY : MediatorChecker.cpp.obj
+
+MediatorChecker.i: MediatorChecker.cpp.i
+.PHONY : MediatorChecker.i
+
+# target to preprocess a source file
+MediatorChecker.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/MediatorChecker.cpp.i
+.PHONY : MediatorChecker.cpp.i
+
+MediatorChecker.s: MediatorChecker.cpp.s
+.PHONY : MediatorChecker.s
+
+# target to generate assembly for a file
+MediatorChecker.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/MediatorChecker.cpp.s
+.PHONY : MediatorChecker.cpp.s
+
+ModelFactory.obj: ModelFactory.cpp.obj
+.PHONY : ModelFactory.obj
+
+# target to build an object file
+ModelFactory.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj
+.PHONY : ModelFactory.cpp.obj
+
+ModelFactory.i: ModelFactory.cpp.i
+.PHONY : ModelFactory.i
+
+# target to preprocess a source file
+ModelFactory.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ModelFactory.cpp.i
+.PHONY : ModelFactory.cpp.i
+
+ModelFactory.s: ModelFactory.cpp.s
+.PHONY : ModelFactory.s
+
+# target to generate assembly for a file
+ModelFactory.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ModelFactory.cpp.s
+.PHONY : ModelFactory.cpp.s
+
 Object.obj: Object.cpp.obj
 .PHONY : Object.obj
 
@@ -410,6 +842,198 @@ Object.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Object.cpp.s
 .PHONY : Object.cpp.s
 
+ObjectHolder.obj: ObjectHolder.cpp.obj
+.PHONY : ObjectHolder.obj
+
+# target to build an object file
+ObjectHolder.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj
+.PHONY : ObjectHolder.cpp.obj
+
+ObjectHolder.i: ObjectHolder.cpp.i
+.PHONY : ObjectHolder.i
+
+# target to preprocess a source file
+ObjectHolder.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ObjectHolder.cpp.i
+.PHONY : ObjectHolder.cpp.i
+
+ObjectHolder.s: ObjectHolder.cpp.s
+.PHONY : ObjectHolder.s
+
+# target to generate assembly for a file
+ObjectHolder.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ObjectHolder.cpp.s
+.PHONY : ObjectHolder.cpp.s
+
+Particle.obj: Particle.cpp.obj
+.PHONY : Particle.obj
+
+# target to build an object file
+Particle.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Particle.cpp.obj
+.PHONY : Particle.cpp.obj
+
+Particle.i: Particle.cpp.i
+.PHONY : Particle.i
+
+# target to preprocess a source file
+Particle.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Particle.cpp.i
+.PHONY : Particle.cpp.i
+
+Particle.s: Particle.cpp.s
+.PHONY : Particle.s
+
+# target to generate assembly for a file
+Particle.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Particle.cpp.s
+.PHONY : Particle.cpp.s
+
+PauseGame.obj: PauseGame.cpp.obj
+.PHONY : PauseGame.obj
+
+# target to build an object file
+PauseGame.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/PauseGame.cpp.obj
+.PHONY : PauseGame.cpp.obj
+
+PauseGame.i: PauseGame.cpp.i
+.PHONY : PauseGame.i
+
+# target to preprocess a source file
+PauseGame.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/PauseGame.cpp.i
+.PHONY : PauseGame.cpp.i
+
+PauseGame.s: PauseGame.cpp.s
+.PHONY : PauseGame.s
+
+# target to generate assembly for a file
+PauseGame.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/PauseGame.cpp.s
+.PHONY : PauseGame.cpp.s
+
+Screen.obj: Screen.cpp.obj
+.PHONY : Screen.obj
+
+# target to build an object file
+Screen.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Screen.cpp.obj
+.PHONY : Screen.cpp.obj
+
+Screen.i: Screen.cpp.i
+.PHONY : Screen.i
+
+# target to preprocess a source file
+Screen.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Screen.cpp.i
+.PHONY : Screen.cpp.i
+
+Screen.s: Screen.cpp.s
+.PHONY : Screen.s
+
+# target to generate assembly for a file
+Screen.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Screen.cpp.s
+.PHONY : Screen.cpp.s
+
+SharedResources.obj: SharedResources.cpp.obj
+.PHONY : SharedResources.obj
+
+# target to build an object file
+SharedResources.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/SharedResources.cpp.obj
+.PHONY : SharedResources.cpp.obj
+
+SharedResources.i: SharedResources.cpp.i
+.PHONY : SharedResources.i
+
+# target to preprocess a source file
+SharedResources.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/SharedResources.cpp.i
+.PHONY : SharedResources.cpp.i
+
+SharedResources.s: SharedResources.cpp.s
+.PHONY : SharedResources.s
+
+# target to generate assembly for a file
+SharedResources.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/SharedResources.cpp.s
+.PHONY : SharedResources.cpp.s
+
+SpaceHolder.obj: SpaceHolder.cpp.obj
+.PHONY : SpaceHolder.obj
+
+# target to build an object file
+SpaceHolder.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj
+.PHONY : SpaceHolder.cpp.obj
+
+SpaceHolder.i: SpaceHolder.cpp.i
+.PHONY : SpaceHolder.i
+
+# target to preprocess a source file
+SpaceHolder.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/SpaceHolder.cpp.i
+.PHONY : SpaceHolder.cpp.i
+
+SpaceHolder.s: SpaceHolder.cpp.s
+.PHONY : SpaceHolder.s
+
+# target to generate assembly for a file
+SpaceHolder.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/SpaceHolder.cpp.s
+.PHONY : SpaceHolder.cpp.s
+
+State.obj: State.cpp.obj
+.PHONY : State.obj
+
+# target to build an object file
+State.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/State.cpp.obj
+.PHONY : State.cpp.obj
+
+State.i: State.cpp.i
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/State.cpp.s
+.PHONY : State.cpp.s
+
+StorageHolder.obj: StorageHolder.cpp.obj
+.PHONY : StorageHolder.obj
+
+# target to build an object file
+StorageHolder.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj
+.PHONY : StorageHolder.cpp.obj
+
+StorageHolder.i: StorageHolder.cpp.i
+.PHONY : StorageHolder.i
+
+# target to preprocess a source file
+StorageHolder.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/StorageHolder.cpp.i
+.PHONY : StorageHolder.cpp.i
+
+StorageHolder.s: StorageHolder.cpp.s
+.PHONY : StorageHolder.s
+
+# target to generate assembly for a file
+StorageHolder.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/StorageHolder.cpp.s
+.PHONY : StorageHolder.cpp.s
+
 Storer.obj: Storer.cpp.obj
 .PHONY : Storer.obj
 
@@ -433,6 +1057,78 @@ Storer.s: Storer.cpp.s
 Storer.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Storer.cpp.s
 .PHONY : Storer.cpp.s
+
+Strategy.obj: Strategy.cpp.obj
+.PHONY : Strategy.obj
+
+# target to build an object file
+Strategy.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Strategy.cpp.obj
+.PHONY : Strategy.cpp.obj
+
+Strategy.i: Strategy.cpp.i
+.PHONY : Strategy.i
+
+# target to preprocess a source file
+Strategy.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Strategy.cpp.i
+.PHONY : Strategy.cpp.i
+
+Strategy.s: Strategy.cpp.s
+.PHONY : Strategy.s
+
+# target to generate assembly for a file
+Strategy.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Strategy.cpp.s
+.PHONY : Strategy.cpp.s
+
+Table.obj: Table.cpp.obj
+.PHONY : Table.obj
+
+# target to build an object file
+Table.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Table.cpp.obj
+.PHONY : Table.cpp.obj
+
+Table.i: Table.cpp.i
+.PHONY : Table.i
+
+# target to preprocess a source file
+Table.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Table.cpp.i
+.PHONY : Table.cpp.i
+
+Table.s: Table.cpp.s
+.PHONY : Table.s
+
+# target to generate assembly for a file
+Table.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Table.cpp.s
+.PHONY : Table.cpp.s
+
+TableHolder.obj: TableHolder.cpp.obj
+.PHONY : TableHolder.obj
+
+# target to build an object file
+TableHolder.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/TableHolder.cpp.obj
+.PHONY : TableHolder.cpp.obj
+
+TableHolder.i: TableHolder.cpp.i
+.PHONY : TableHolder.i
+
+# target to preprocess a source file
+TableHolder.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/TableHolder.cpp.i
+.PHONY : TableHolder.cpp.i
+
+TableHolder.s: TableHolder.cpp.s
+.PHONY : TableHolder.s
+
+# target to generate assembly for a file
+TableHolder.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/TableHolder.cpp.s
+.PHONY : TableHolder.cpp.s
 
 Timer.obj: Timer.cpp.obj
 .PHONY : Timer.obj
@@ -476,12 +1172,18 @@ help:
 	@echo ... Area.obj
 	@echo ... Area.i
 	@echo ... Area.s
+	@echo ... Button.obj
+	@echo ... Button.i
+	@echo ... Button.s
 	@echo ... CameraGame.obj
 	@echo ... CameraGame.i
 	@echo ... CameraGame.s
 	@echo ... Checker.obj
 	@echo ... Checker.i
 	@echo ... Checker.s
+	@echo ... CompositeString.obj
+	@echo ... CompositeString.i
+	@echo ... CompositeString.s
 	@echo ... ControllableObject.obj
 	@echo ... ControllableObject.i
 	@echo ... ControllableObject.s
@@ -491,18 +1193,99 @@ help:
 	@echo ... Cooker.obj
 	@echo ... Cooker.i
 	@echo ... Cooker.s
+	@echo ... Customer.obj
+	@echo ... Customer.i
+	@echo ... Customer.s
+	@echo ... CustomerDesire.obj
+	@echo ... CustomerDesire.i
+	@echo ... CustomerDesire.s
+	@echo ... CustomerFactory.obj
+	@echo ... CustomerFactory.i
+	@echo ... CustomerFactory.s
+	@echo ... CustomerHolder.obj
+	@echo ... CustomerHolder.i
+	@echo ... CustomerHolder.s
+	@echo ... DisplayFactory.obj
+	@echo ... DisplayFactory.i
+	@echo ... DisplayFactory.s
 	@echo ... Food.obj
 	@echo ... Food.i
 	@echo ... Food.s
+	@echo ... FoodFactory.obj
+	@echo ... FoodFactory.i
+	@echo ... FoodFactory.s
+	@echo ... FoodIterator.obj
+	@echo ... FoodIterator.i
+	@echo ... FoodIterator.s
+	@echo ... GameAudio.obj
+	@echo ... GameAudio.i
+	@echo ... GameAudio.s
+	@echo ... GameInstruction.obj
+	@echo ... GameInstruction.i
+	@echo ... GameInstruction.s
+	@echo ... GameManager.obj
+	@echo ... GameManager.i
+	@echo ... GameManager.s
+	@echo ... KitchenHolder.obj
+	@echo ... KitchenHolder.i
+	@echo ... KitchenHolder.s
+	@echo ... Level.obj
+	@echo ... Level.i
+	@echo ... Level.s
+	@echo ... Manager.obj
+	@echo ... Manager.i
+	@echo ... Manager.s
+	@echo ... Map.obj
+	@echo ... Map.i
+	@echo ... Map.s
 	@echo ... Mediator.obj
 	@echo ... Mediator.i
 	@echo ... Mediator.s
+	@echo ... MediatorChecker.obj
+	@echo ... MediatorChecker.i
+	@echo ... MediatorChecker.s
+	@echo ... ModelFactory.obj
+	@echo ... ModelFactory.i
+	@echo ... ModelFactory.s
 	@echo ... Object.obj
 	@echo ... Object.i
 	@echo ... Object.s
+	@echo ... ObjectHolder.obj
+	@echo ... ObjectHolder.i
+	@echo ... ObjectHolder.s
+	@echo ... Particle.obj
+	@echo ... Particle.i
+	@echo ... Particle.s
+	@echo ... PauseGame.obj
+	@echo ... PauseGame.i
+	@echo ... PauseGame.s
+	@echo ... Screen.obj
+	@echo ... Screen.i
+	@echo ... Screen.s
+	@echo ... SharedResources.obj
+	@echo ... SharedResources.i
+	@echo ... SharedResources.s
+	@echo ... SpaceHolder.obj
+	@echo ... SpaceHolder.i
+	@echo ... SpaceHolder.s
+	@echo ... State.obj
+	@echo ... State.i
+	@echo ... State.s
+	@echo ... StorageHolder.obj
+	@echo ... StorageHolder.i
+	@echo ... StorageHolder.s
 	@echo ... Storer.obj
 	@echo ... Storer.i
 	@echo ... Storer.s
+	@echo ... Strategy.obj
+	@echo ... Strategy.i
+	@echo ... Strategy.s
+	@echo ... Table.obj
+	@echo ... Table.i
+	@echo ... Table.s
+	@echo ... TableHolder.obj
+	@echo ... TableHolder.i
+	@echo ... TableHolder.s
 	@echo ... Timer.obj
 	@echo ... Timer.i
 	@echo ... Timer.s

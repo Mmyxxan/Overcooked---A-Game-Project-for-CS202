@@ -1,8 +1,12 @@
 #pragma once
+#ifndef MEDIATOR_HPP
+#define MEDIATOR_HPP
 #include "Libraries.hpp"
 #include "ControllableObject.hpp"
 #include "Object.hpp"
+#include "Checker.hpp"
 
+class Object;
 class Mediator {
 private:
     ControllableObject* chef;
@@ -19,3 +23,7 @@ public:
     float getChefX();
     float getChefY();
 };
+
+#endif
+
+

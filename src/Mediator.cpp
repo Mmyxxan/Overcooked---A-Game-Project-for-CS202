@@ -15,7 +15,7 @@ Object* Mediator::getAttachmentfrom() {
 }
 
 void Mediator::assignBack(Object* o) {
-    o -> display();
+    if (o) o -> display();
     chef -> attach(o);
     std::cerr << "done assign back" << '\n';
 }

@@ -1,4 +1,6 @@
 #pragma once
+#ifndef CONTROLLABLEOBJECT_HPP
+#define CONTROLLABLEOBJECT_HPP
 #include "Libraries.hpp"
 #include "Object.hpp"
 #include "CameraGame.hpp"
@@ -13,8 +15,10 @@ private:
     char up;
     char down;
     const float speed = 0.2f;
+    char orientation;
 public:
-    ControllableObject(std::string file, Vector3 position, Vector3 axis, float direction, Vector3 scale): left('A'), right('D'), up('W'), down('S') {
+    // state pattern and pause in state
+    ControllableObject(std::string file, Vector3 position, Vector3 axis, float direction, Vector3 scale): left('A'), right('D'), up('W'), down('S'), orientation('D') {
         area = new Area(200, 200, true);
         setFile(file); 
         setPos(position); setAxis(axis);
@@ -25,6 +29,7 @@ public:
     ControllableObject(char left, char right, char up, char down): left(left), right(right), up(up), down(down) {
         // description = "controllable";
     }
+    void display();
     void setKeyLeft(char x);
     void setKeyRight(char x);
     void setKeyUp(char x);
@@ -46,3 +51,4 @@ public:
     // std::string getDescription();
     // display: setMove()... Move() function call
 };
+#endif

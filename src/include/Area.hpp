@@ -16,7 +16,10 @@ public:
             for (int j = 0; j < y; j++) cell[i][j] = isControllable;
         }
     }
+    // void registerArea(Map* map);
+    void resetArea();
     bool isInArea(float cx, float cy);
+    bool isMovable(float cx, float cy);
     void removeArea(Vector2 root, float height, float width);
 };
 

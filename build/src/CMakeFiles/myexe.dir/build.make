@@ -83,11 +83,26 @@ src/CMakeFiles/myexe.dir/Area.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Area.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Area.cpp -o CMakeFiles\myexe.dir\Area.cpp.s
 
+src/CMakeFiles/myexe.dir/Button.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Button.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Button.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Button.cpp
+src/CMakeFiles/myexe.dir/Button.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myexe.dir/Button.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Button.cpp.obj -MF CMakeFiles\myexe.dir\Button.cpp.obj.d -o CMakeFiles\myexe.dir\Button.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Button.cpp
+
+src/CMakeFiles/myexe.dir/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Button.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Button.cpp > CMakeFiles\myexe.dir\Button.cpp.i
+
+src/CMakeFiles/myexe.dir/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Button.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Button.cpp -o CMakeFiles\myexe.dir\Button.cpp.s
+
 src/CMakeFiles/myexe.dir/CameraGame.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/CameraGame.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/CameraGame.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/CameraGame.cpp
 src/CMakeFiles/myexe.dir/CameraGame.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/myexe.dir/CameraGame.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myexe.dir/CameraGame.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/CameraGame.cpp.obj -MF CMakeFiles\myexe.dir\CameraGame.cpp.obj.d -o CMakeFiles\myexe.dir\CameraGame.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CameraGame.cpp
 
 src/CMakeFiles/myexe.dir/CameraGame.cpp.i: cmake_force
@@ -102,7 +117,7 @@ src/CMakeFiles/myexe.dir/Checker.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Checker.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Checker.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Checker.cpp
 src/CMakeFiles/myexe.dir/Checker.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/myexe.dir/Checker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myexe.dir/Checker.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Checker.cpp.obj -MF CMakeFiles\myexe.dir\Checker.cpp.obj.d -o CMakeFiles\myexe.dir\Checker.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Checker.cpp
 
 src/CMakeFiles/myexe.dir/Checker.cpp.i: cmake_force
@@ -113,11 +128,26 @@ src/CMakeFiles/myexe.dir/Checker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Checker.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Checker.cpp -o CMakeFiles\myexe.dir\Checker.cpp.s
 
+src/CMakeFiles/myexe.dir/CompositeString.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/CompositeString.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/CompositeString.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/CompositeString.cpp
+src/CMakeFiles/myexe.dir/CompositeString.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/myexe.dir/CompositeString.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/CompositeString.cpp.obj -MF CMakeFiles\myexe.dir\CompositeString.cpp.obj.d -o CMakeFiles\myexe.dir\CompositeString.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CompositeString.cpp
+
+src/CMakeFiles/myexe.dir/CompositeString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/CompositeString.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CompositeString.cpp > CMakeFiles\myexe.dir\CompositeString.cpp.i
+
+src/CMakeFiles/myexe.dir/CompositeString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/CompositeString.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CompositeString.cpp -o CMakeFiles\myexe.dir\CompositeString.cpp.s
+
 src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/ControllableObject.cpp
 src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj -MF CMakeFiles\myexe.dir\ControllableObject.cpp.obj.d -o CMakeFiles\myexe.dir\ControllableObject.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\ControllableObject.cpp
 
 src/CMakeFiles/myexe.dir/ControllableObject.cpp.i: cmake_force
@@ -132,7 +162,7 @@ src/CMakeFiles/myexe.dir/Controller.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Controller.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Controller.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Controller.cpp
 src/CMakeFiles/myexe.dir/Controller.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/myexe.dir/Controller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/myexe.dir/Controller.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Controller.cpp.obj -MF CMakeFiles\myexe.dir\Controller.cpp.obj.d -o CMakeFiles\myexe.dir\Controller.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Controller.cpp
 
 src/CMakeFiles/myexe.dir/Controller.cpp.i: cmake_force
@@ -147,7 +177,7 @@ src/CMakeFiles/myexe.dir/Cooker.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Cooker.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Cooker.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Cooker.cpp
 src/CMakeFiles/myexe.dir/Cooker.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/myexe.dir/Cooker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/myexe.dir/Cooker.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Cooker.cpp.obj -MF CMakeFiles\myexe.dir\Cooker.cpp.obj.d -o CMakeFiles\myexe.dir\Cooker.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Cooker.cpp
 
 src/CMakeFiles/myexe.dir/Cooker.cpp.i: cmake_force
@@ -158,11 +188,86 @@ src/CMakeFiles/myexe.dir/Cooker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Cooker.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Cooker.cpp -o CMakeFiles\myexe.dir\Cooker.cpp.s
 
+src/CMakeFiles/myexe.dir/Customer.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Customer.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Customer.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Customer.cpp
+src/CMakeFiles/myexe.dir/Customer.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/myexe.dir/Customer.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Customer.cpp.obj -MF CMakeFiles\myexe.dir\Customer.cpp.obj.d -o CMakeFiles\myexe.dir\Customer.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Customer.cpp
+
+src/CMakeFiles/myexe.dir/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Customer.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Customer.cpp > CMakeFiles\myexe.dir\Customer.cpp.i
+
+src/CMakeFiles/myexe.dir/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Customer.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Customer.cpp -o CMakeFiles\myexe.dir\Customer.cpp.s
+
+src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/CustomerDesire.cpp
+src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj -MF CMakeFiles\myexe.dir\CustomerDesire.cpp.obj.d -o CMakeFiles\myexe.dir\CustomerDesire.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerDesire.cpp
+
+src/CMakeFiles/myexe.dir/CustomerDesire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/CustomerDesire.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerDesire.cpp > CMakeFiles\myexe.dir\CustomerDesire.cpp.i
+
+src/CMakeFiles/myexe.dir/CustomerDesire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/CustomerDesire.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerDesire.cpp -o CMakeFiles\myexe.dir\CustomerDesire.cpp.s
+
+src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/CustomerFactory.cpp
+src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj -MF CMakeFiles\myexe.dir\CustomerFactory.cpp.obj.d -o CMakeFiles\myexe.dir\CustomerFactory.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerFactory.cpp
+
+src/CMakeFiles/myexe.dir/CustomerFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/CustomerFactory.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerFactory.cpp > CMakeFiles\myexe.dir\CustomerFactory.cpp.i
+
+src/CMakeFiles/myexe.dir/CustomerFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/CustomerFactory.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerFactory.cpp -o CMakeFiles\myexe.dir\CustomerFactory.cpp.s
+
+src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/CustomerHolder.cpp
+src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj -MF CMakeFiles\myexe.dir\CustomerHolder.cpp.obj.d -o CMakeFiles\myexe.dir\CustomerHolder.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerHolder.cpp
+
+src/CMakeFiles/myexe.dir/CustomerHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/CustomerHolder.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerHolder.cpp > CMakeFiles\myexe.dir\CustomerHolder.cpp.i
+
+src/CMakeFiles/myexe.dir/CustomerHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/CustomerHolder.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\CustomerHolder.cpp -o CMakeFiles\myexe.dir\CustomerHolder.cpp.s
+
+src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/DisplayFactory.cpp
+src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj -MF CMakeFiles\myexe.dir\DisplayFactory.cpp.obj.d -o CMakeFiles\myexe.dir\DisplayFactory.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\DisplayFactory.cpp
+
+src/CMakeFiles/myexe.dir/DisplayFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/DisplayFactory.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\DisplayFactory.cpp > CMakeFiles\myexe.dir\DisplayFactory.cpp.i
+
+src/CMakeFiles/myexe.dir/DisplayFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/DisplayFactory.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\DisplayFactory.cpp -o CMakeFiles\myexe.dir\DisplayFactory.cpp.s
+
 src/CMakeFiles/myexe.dir/Food.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Food.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Food.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Food.cpp
 src/CMakeFiles/myexe.dir/Food.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/myexe.dir/Food.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/myexe.dir/Food.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Food.cpp.obj -MF CMakeFiles\myexe.dir\Food.cpp.obj.d -o CMakeFiles\myexe.dir\Food.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Food.cpp
 
 src/CMakeFiles/myexe.dir/Food.cpp.i: cmake_force
@@ -173,11 +278,146 @@ src/CMakeFiles/myexe.dir/Food.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Food.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Food.cpp -o CMakeFiles\myexe.dir\Food.cpp.s
 
+src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/FoodFactory.cpp
+src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj -MF CMakeFiles\myexe.dir\FoodFactory.cpp.obj.d -o CMakeFiles\myexe.dir\FoodFactory.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\FoodFactory.cpp
+
+src/CMakeFiles/myexe.dir/FoodFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/FoodFactory.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\FoodFactory.cpp > CMakeFiles\myexe.dir\FoodFactory.cpp.i
+
+src/CMakeFiles/myexe.dir/FoodFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/FoodFactory.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\FoodFactory.cpp -o CMakeFiles\myexe.dir\FoodFactory.cpp.s
+
+src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/FoodIterator.cpp
+src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj -MF CMakeFiles\myexe.dir\FoodIterator.cpp.obj.d -o CMakeFiles\myexe.dir\FoodIterator.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\FoodIterator.cpp
+
+src/CMakeFiles/myexe.dir/FoodIterator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/FoodIterator.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\FoodIterator.cpp > CMakeFiles\myexe.dir\FoodIterator.cpp.i
+
+src/CMakeFiles/myexe.dir/FoodIterator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/FoodIterator.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\FoodIterator.cpp -o CMakeFiles\myexe.dir\FoodIterator.cpp.s
+
+src/CMakeFiles/myexe.dir/GameAudio.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/GameAudio.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/GameAudio.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/GameAudio.cpp
+src/CMakeFiles/myexe.dir/GameAudio.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/myexe.dir/GameAudio.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/GameAudio.cpp.obj -MF CMakeFiles\myexe.dir\GameAudio.cpp.obj.d -o CMakeFiles\myexe.dir\GameAudio.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameAudio.cpp
+
+src/CMakeFiles/myexe.dir/GameAudio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/GameAudio.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameAudio.cpp > CMakeFiles\myexe.dir\GameAudio.cpp.i
+
+src/CMakeFiles/myexe.dir/GameAudio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/GameAudio.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameAudio.cpp -o CMakeFiles\myexe.dir\GameAudio.cpp.s
+
+src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/GameInstruction.cpp
+src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj -MF CMakeFiles\myexe.dir\GameInstruction.cpp.obj.d -o CMakeFiles\myexe.dir\GameInstruction.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameInstruction.cpp
+
+src/CMakeFiles/myexe.dir/GameInstruction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/GameInstruction.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameInstruction.cpp > CMakeFiles\myexe.dir\GameInstruction.cpp.i
+
+src/CMakeFiles/myexe.dir/GameInstruction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/GameInstruction.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameInstruction.cpp -o CMakeFiles\myexe.dir\GameInstruction.cpp.s
+
+src/CMakeFiles/myexe.dir/GameManager.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/GameManager.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/GameManager.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/GameManager.cpp
+src/CMakeFiles/myexe.dir/GameManager.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/CMakeFiles/myexe.dir/GameManager.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/GameManager.cpp.obj -MF CMakeFiles\myexe.dir\GameManager.cpp.obj.d -o CMakeFiles\myexe.dir\GameManager.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameManager.cpp
+
+src/CMakeFiles/myexe.dir/GameManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/GameManager.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameManager.cpp > CMakeFiles\myexe.dir\GameManager.cpp.i
+
+src/CMakeFiles/myexe.dir/GameManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/GameManager.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\GameManager.cpp -o CMakeFiles\myexe.dir\GameManager.cpp.s
+
+src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/KitchenHolder.cpp
+src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj -MF CMakeFiles\myexe.dir\KitchenHolder.cpp.obj.d -o CMakeFiles\myexe.dir\KitchenHolder.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\KitchenHolder.cpp
+
+src/CMakeFiles/myexe.dir/KitchenHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/KitchenHolder.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\KitchenHolder.cpp > CMakeFiles\myexe.dir\KitchenHolder.cpp.i
+
+src/CMakeFiles/myexe.dir/KitchenHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/KitchenHolder.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\KitchenHolder.cpp -o CMakeFiles\myexe.dir\KitchenHolder.cpp.s
+
+src/CMakeFiles/myexe.dir/Level.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Level.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Level.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Level.cpp
+src/CMakeFiles/myexe.dir/Level.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/CMakeFiles/myexe.dir/Level.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Level.cpp.obj -MF CMakeFiles\myexe.dir\Level.cpp.obj.d -o CMakeFiles\myexe.dir\Level.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Level.cpp
+
+src/CMakeFiles/myexe.dir/Level.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Level.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Level.cpp > CMakeFiles\myexe.dir\Level.cpp.i
+
+src/CMakeFiles/myexe.dir/Level.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Level.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Level.cpp -o CMakeFiles\myexe.dir\Level.cpp.s
+
+src/CMakeFiles/myexe.dir/Manager.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Manager.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Manager.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Manager.cpp
+src/CMakeFiles/myexe.dir/Manager.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/CMakeFiles/myexe.dir/Manager.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Manager.cpp.obj -MF CMakeFiles\myexe.dir\Manager.cpp.obj.d -o CMakeFiles\myexe.dir\Manager.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Manager.cpp
+
+src/CMakeFiles/myexe.dir/Manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Manager.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Manager.cpp > CMakeFiles\myexe.dir\Manager.cpp.i
+
+src/CMakeFiles/myexe.dir/Manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Manager.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Manager.cpp -o CMakeFiles\myexe.dir\Manager.cpp.s
+
+src/CMakeFiles/myexe.dir/Map.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Map.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Map.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Map.cpp
+src/CMakeFiles/myexe.dir/Map.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/CMakeFiles/myexe.dir/Map.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Map.cpp.obj -MF CMakeFiles\myexe.dir\Map.cpp.obj.d -o CMakeFiles\myexe.dir\Map.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Map.cpp
+
+src/CMakeFiles/myexe.dir/Map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Map.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Map.cpp > CMakeFiles\myexe.dir\Map.cpp.i
+
+src/CMakeFiles/myexe.dir/Map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Map.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Map.cpp -o CMakeFiles\myexe.dir\Map.cpp.s
+
 src/CMakeFiles/myexe.dir/Mediator.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Mediator.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Mediator.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Mediator.cpp
 src/CMakeFiles/myexe.dir/Mediator.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/myexe.dir/Mediator.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/CMakeFiles/myexe.dir/Mediator.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Mediator.cpp.obj -MF CMakeFiles\myexe.dir\Mediator.cpp.obj.d -o CMakeFiles\myexe.dir\Mediator.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Mediator.cpp
 
 src/CMakeFiles/myexe.dir/Mediator.cpp.i: cmake_force
@@ -188,11 +428,41 @@ src/CMakeFiles/myexe.dir/Mediator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Mediator.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Mediator.cpp -o CMakeFiles\myexe.dir\Mediator.cpp.s
 
+src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/MediatorChecker.cpp
+src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj -MF CMakeFiles\myexe.dir\MediatorChecker.cpp.obj.d -o CMakeFiles\myexe.dir\MediatorChecker.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\MediatorChecker.cpp
+
+src/CMakeFiles/myexe.dir/MediatorChecker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/MediatorChecker.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\MediatorChecker.cpp > CMakeFiles\myexe.dir\MediatorChecker.cpp.i
+
+src/CMakeFiles/myexe.dir/MediatorChecker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/MediatorChecker.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\MediatorChecker.cpp -o CMakeFiles\myexe.dir\MediatorChecker.cpp.s
+
+src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/ModelFactory.cpp
+src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj -MF CMakeFiles\myexe.dir\ModelFactory.cpp.obj.d -o CMakeFiles\myexe.dir\ModelFactory.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\ModelFactory.cpp
+
+src/CMakeFiles/myexe.dir/ModelFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/ModelFactory.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\ModelFactory.cpp > CMakeFiles\myexe.dir\ModelFactory.cpp.i
+
+src/CMakeFiles/myexe.dir/ModelFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/ModelFactory.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\ModelFactory.cpp -o CMakeFiles\myexe.dir\ModelFactory.cpp.s
+
 src/CMakeFiles/myexe.dir/Object.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Object.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Object.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Object.cpp
 src/CMakeFiles/myexe.dir/Object.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/myexe.dir/Object.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/CMakeFiles/myexe.dir/Object.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Object.cpp.obj -MF CMakeFiles\myexe.dir\Object.cpp.obj.d -o CMakeFiles\myexe.dir\Object.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Object.cpp
 
 src/CMakeFiles/myexe.dir/Object.cpp.i: cmake_force
@@ -203,11 +473,131 @@ src/CMakeFiles/myexe.dir/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Object.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Object.cpp -o CMakeFiles\myexe.dir\Object.cpp.s
 
+src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/ObjectHolder.cpp
+src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj -MF CMakeFiles\myexe.dir\ObjectHolder.cpp.obj.d -o CMakeFiles\myexe.dir\ObjectHolder.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\ObjectHolder.cpp
+
+src/CMakeFiles/myexe.dir/ObjectHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/ObjectHolder.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\ObjectHolder.cpp > CMakeFiles\myexe.dir\ObjectHolder.cpp.i
+
+src/CMakeFiles/myexe.dir/ObjectHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/ObjectHolder.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\ObjectHolder.cpp -o CMakeFiles\myexe.dir\ObjectHolder.cpp.s
+
+src/CMakeFiles/myexe.dir/Particle.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Particle.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Particle.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Particle.cpp
+src/CMakeFiles/myexe.dir/Particle.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/CMakeFiles/myexe.dir/Particle.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Particle.cpp.obj -MF CMakeFiles\myexe.dir\Particle.cpp.obj.d -o CMakeFiles\myexe.dir\Particle.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Particle.cpp
+
+src/CMakeFiles/myexe.dir/Particle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Particle.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Particle.cpp > CMakeFiles\myexe.dir\Particle.cpp.i
+
+src/CMakeFiles/myexe.dir/Particle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Particle.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Particle.cpp -o CMakeFiles\myexe.dir\Particle.cpp.s
+
+src/CMakeFiles/myexe.dir/PauseGame.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/PauseGame.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/PauseGame.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/PauseGame.cpp
+src/CMakeFiles/myexe.dir/PauseGame.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/CMakeFiles/myexe.dir/PauseGame.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/PauseGame.cpp.obj -MF CMakeFiles\myexe.dir\PauseGame.cpp.obj.d -o CMakeFiles\myexe.dir\PauseGame.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\PauseGame.cpp
+
+src/CMakeFiles/myexe.dir/PauseGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/PauseGame.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\PauseGame.cpp > CMakeFiles\myexe.dir\PauseGame.cpp.i
+
+src/CMakeFiles/myexe.dir/PauseGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/PauseGame.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\PauseGame.cpp -o CMakeFiles\myexe.dir\PauseGame.cpp.s
+
+src/CMakeFiles/myexe.dir/Screen.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Screen.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Screen.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Screen.cpp
+src/CMakeFiles/myexe.dir/Screen.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/CMakeFiles/myexe.dir/Screen.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Screen.cpp.obj -MF CMakeFiles\myexe.dir\Screen.cpp.obj.d -o CMakeFiles\myexe.dir\Screen.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Screen.cpp
+
+src/CMakeFiles/myexe.dir/Screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Screen.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Screen.cpp > CMakeFiles\myexe.dir\Screen.cpp.i
+
+src/CMakeFiles/myexe.dir/Screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Screen.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Screen.cpp -o CMakeFiles\myexe.dir\Screen.cpp.s
+
+src/CMakeFiles/myexe.dir/SharedResources.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/SharedResources.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/SharedResources.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/SharedResources.cpp
+src/CMakeFiles/myexe.dir/SharedResources.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/CMakeFiles/myexe.dir/SharedResources.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/SharedResources.cpp.obj -MF CMakeFiles\myexe.dir\SharedResources.cpp.obj.d -o CMakeFiles\myexe.dir\SharedResources.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\SharedResources.cpp
+
+src/CMakeFiles/myexe.dir/SharedResources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/SharedResources.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\SharedResources.cpp > CMakeFiles\myexe.dir\SharedResources.cpp.i
+
+src/CMakeFiles/myexe.dir/SharedResources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/SharedResources.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\SharedResources.cpp -o CMakeFiles\myexe.dir\SharedResources.cpp.s
+
+src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/SpaceHolder.cpp
+src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj -MF CMakeFiles\myexe.dir\SpaceHolder.cpp.obj.d -o CMakeFiles\myexe.dir\SpaceHolder.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\SpaceHolder.cpp
+
+src/CMakeFiles/myexe.dir/SpaceHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/SpaceHolder.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\SpaceHolder.cpp > CMakeFiles\myexe.dir\SpaceHolder.cpp.i
+
+src/CMakeFiles/myexe.dir/SpaceHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/SpaceHolder.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\SpaceHolder.cpp -o CMakeFiles\myexe.dir\SpaceHolder.cpp.s
+
+src/CMakeFiles/myexe.dir/State.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/State.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/State.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/State.cpp
+src/CMakeFiles/myexe.dir/State.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/CMakeFiles/myexe.dir/State.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/State.cpp.obj -MF CMakeFiles\myexe.dir\State.cpp.obj.d -o CMakeFiles\myexe.dir\State.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\State.cpp
+
+src/CMakeFiles/myexe.dir/State.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/State.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\State.cpp > CMakeFiles\myexe.dir\State.cpp.i
+
+src/CMakeFiles/myexe.dir/State.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/State.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\State.cpp -o CMakeFiles\myexe.dir\State.cpp.s
+
+src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/StorageHolder.cpp
+src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj -MF CMakeFiles\myexe.dir\StorageHolder.cpp.obj.d -o CMakeFiles\myexe.dir\StorageHolder.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\StorageHolder.cpp
+
+src/CMakeFiles/myexe.dir/StorageHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/StorageHolder.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\StorageHolder.cpp > CMakeFiles\myexe.dir\StorageHolder.cpp.i
+
+src/CMakeFiles/myexe.dir/StorageHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/StorageHolder.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\StorageHolder.cpp -o CMakeFiles\myexe.dir\StorageHolder.cpp.s
+
 src/CMakeFiles/myexe.dir/Storer.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Storer.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Storer.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Storer.cpp
 src/CMakeFiles/myexe.dir/Storer.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/myexe.dir/Storer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/CMakeFiles/myexe.dir/Storer.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Storer.cpp.obj -MF CMakeFiles\myexe.dir\Storer.cpp.obj.d -o CMakeFiles\myexe.dir\Storer.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Storer.cpp
 
 src/CMakeFiles/myexe.dir/Storer.cpp.i: cmake_force
@@ -218,11 +608,56 @@ src/CMakeFiles/myexe.dir/Storer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Storer.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Storer.cpp -o CMakeFiles\myexe.dir\Storer.cpp.s
 
+src/CMakeFiles/myexe.dir/Strategy.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Strategy.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Strategy.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Strategy.cpp
+src/CMakeFiles/myexe.dir/Strategy.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/CMakeFiles/myexe.dir/Strategy.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Strategy.cpp.obj -MF CMakeFiles\myexe.dir\Strategy.cpp.obj.d -o CMakeFiles\myexe.dir\Strategy.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Strategy.cpp
+
+src/CMakeFiles/myexe.dir/Strategy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Strategy.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Strategy.cpp > CMakeFiles\myexe.dir\Strategy.cpp.i
+
+src/CMakeFiles/myexe.dir/Strategy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Strategy.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Strategy.cpp -o CMakeFiles\myexe.dir\Strategy.cpp.s
+
+src/CMakeFiles/myexe.dir/Table.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/Table.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/Table.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Table.cpp
+src/CMakeFiles/myexe.dir/Table.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/CMakeFiles/myexe.dir/Table.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Table.cpp.obj -MF CMakeFiles\myexe.dir\Table.cpp.obj.d -o CMakeFiles\myexe.dir\Table.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Table.cpp
+
+src/CMakeFiles/myexe.dir/Table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/Table.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Table.cpp > CMakeFiles\myexe.dir\Table.cpp.i
+
+src/CMakeFiles/myexe.dir/Table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/Table.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Table.cpp -o CMakeFiles\myexe.dir\Table.cpp.s
+
+src/CMakeFiles/myexe.dir/TableHolder.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/TableHolder.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/TableHolder.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/TableHolder.cpp
+src/CMakeFiles/myexe.dir/TableHolder.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/CMakeFiles/myexe.dir/TableHolder.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/TableHolder.cpp.obj -MF CMakeFiles\myexe.dir\TableHolder.cpp.obj.d -o CMakeFiles\myexe.dir\TableHolder.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\TableHolder.cpp
+
+src/CMakeFiles/myexe.dir/TableHolder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/TableHolder.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\TableHolder.cpp > CMakeFiles\myexe.dir\TableHolder.cpp.i
+
+src/CMakeFiles/myexe.dir/TableHolder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/TableHolder.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\TableHolder.cpp -o CMakeFiles\myexe.dir\TableHolder.cpp.s
+
 src/CMakeFiles/myexe.dir/Timer.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
 src/CMakeFiles/myexe.dir/Timer.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
 src/CMakeFiles/myexe.dir/Timer.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/Timer.cpp
 src/CMakeFiles/myexe.dir/Timer.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/myexe.dir/Timer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/myexe.dir/Timer.cpp.obj"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/Timer.cpp.obj -MF CMakeFiles\myexe.dir\Timer.cpp.obj.d -o CMakeFiles\myexe.dir\Timer.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\Timer.cpp
 
 src/CMakeFiles/myexe.dir/Timer.cpp.i: cmake_force
@@ -236,34 +671,92 @@ src/CMakeFiles/myexe.dir/Timer.cpp.s: cmake_force
 # Object files for target myexe
 myexe_OBJECTS = \
 "CMakeFiles/myexe.dir/Area.cpp.obj" \
+"CMakeFiles/myexe.dir/Button.cpp.obj" \
 "CMakeFiles/myexe.dir/CameraGame.cpp.obj" \
 "CMakeFiles/myexe.dir/Checker.cpp.obj" \
+"CMakeFiles/myexe.dir/CompositeString.cpp.obj" \
 "CMakeFiles/myexe.dir/ControllableObject.cpp.obj" \
 "CMakeFiles/myexe.dir/Controller.cpp.obj" \
 "CMakeFiles/myexe.dir/Cooker.cpp.obj" \
+"CMakeFiles/myexe.dir/Customer.cpp.obj" \
+"CMakeFiles/myexe.dir/CustomerDesire.cpp.obj" \
+"CMakeFiles/myexe.dir/CustomerFactory.cpp.obj" \
+"CMakeFiles/myexe.dir/CustomerHolder.cpp.obj" \
+"CMakeFiles/myexe.dir/DisplayFactory.cpp.obj" \
 "CMakeFiles/myexe.dir/Food.cpp.obj" \
+"CMakeFiles/myexe.dir/FoodFactory.cpp.obj" \
+"CMakeFiles/myexe.dir/FoodIterator.cpp.obj" \
+"CMakeFiles/myexe.dir/GameAudio.cpp.obj" \
+"CMakeFiles/myexe.dir/GameInstruction.cpp.obj" \
+"CMakeFiles/myexe.dir/GameManager.cpp.obj" \
+"CMakeFiles/myexe.dir/KitchenHolder.cpp.obj" \
+"CMakeFiles/myexe.dir/Level.cpp.obj" \
+"CMakeFiles/myexe.dir/Manager.cpp.obj" \
+"CMakeFiles/myexe.dir/Map.cpp.obj" \
 "CMakeFiles/myexe.dir/Mediator.cpp.obj" \
+"CMakeFiles/myexe.dir/MediatorChecker.cpp.obj" \
+"CMakeFiles/myexe.dir/ModelFactory.cpp.obj" \
 "CMakeFiles/myexe.dir/Object.cpp.obj" \
+"CMakeFiles/myexe.dir/ObjectHolder.cpp.obj" \
+"CMakeFiles/myexe.dir/Particle.cpp.obj" \
+"CMakeFiles/myexe.dir/PauseGame.cpp.obj" \
+"CMakeFiles/myexe.dir/Screen.cpp.obj" \
+"CMakeFiles/myexe.dir/SharedResources.cpp.obj" \
+"CMakeFiles/myexe.dir/SpaceHolder.cpp.obj" \
+"CMakeFiles/myexe.dir/State.cpp.obj" \
+"CMakeFiles/myexe.dir/StorageHolder.cpp.obj" \
 "CMakeFiles/myexe.dir/Storer.cpp.obj" \
+"CMakeFiles/myexe.dir/Strategy.cpp.obj" \
+"CMakeFiles/myexe.dir/Table.cpp.obj" \
+"CMakeFiles/myexe.dir/TableHolder.cpp.obj" \
 "CMakeFiles/myexe.dir/Timer.cpp.obj"
 
 # External object files for target myexe
 myexe_EXTERNAL_OBJECTS =
 
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Area.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Button.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/CameraGame.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Checker.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/CompositeString.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/ControllableObject.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Controller.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Cooker.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Customer.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/CustomerFactory.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/CustomerHolder.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/DisplayFactory.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Food.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/FoodFactory.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/FoodIterator.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/GameAudio.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/GameInstruction.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/GameManager.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/KitchenHolder.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Level.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Manager.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Map.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Mediator.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/MediatorChecker.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/ModelFactory.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Object.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/ObjectHolder.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Particle.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/PauseGame.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Screen.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/SharedResources.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/SpaceHolder.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/State.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/StorageHolder.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Storer.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Strategy.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Table.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/TableHolder.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Timer.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/build.make
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\StaticLibs\libmyexe.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX static library D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\StaticLibs\libmyexe.a"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && $(CMAKE_COMMAND) -P CMakeFiles\myexe.dir\cmake_clean_target.cmake
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\myexe.dir\link.txt --verbose=$(VERBOSE)
 

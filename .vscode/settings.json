@@ -58,6 +58,9 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "*.m": "cpp",
+        "fstream": "cpp",
+        "set": "cpp"
     }
 }

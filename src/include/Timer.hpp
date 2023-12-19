@@ -3,18 +3,24 @@
 
 class Timer {
 public:
-    Timer(int minutes, int seconds) : totalSeconds(minutes * 60 + seconds), isRunning(true), timerThread(NULL) {
+    Timer(int minutes, int seconds) : totalSeconds(minutes * 60 + seconds), isRunning(true), timerThread(NULL), _minute(minutes), _second(seconds), isPaused(false) {
         if (totalSeconds <= 0) {
             std::cerr << "Invalid timer duration." << std::endl;
             isRunning.store(false);
         }
     }
+    void togglePause();
+    int getTimePaused();
+    void pause();
+    bool isStopped();
     int getMinute();
     int getSecond();
     bool finish();
     void start();
     void stop();
+    bool TimerisRunning();
 private:
+    bool isPaused;
     std::thread* timerThread;
     int totalSeconds;
     std::atomic<bool> isRunning;
