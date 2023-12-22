@@ -242,6 +242,30 @@ Button.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Button.cpp.s
 .PHONY : Button.cpp.s
 
+ButtonIterator.obj: ButtonIterator.cpp.obj
+.PHONY : ButtonIterator.obj
+
+# target to build an object file
+ButtonIterator.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ButtonIterator.cpp.obj
+.PHONY : ButtonIterator.cpp.obj
+
+ButtonIterator.i: ButtonIterator.cpp.i
+.PHONY : ButtonIterator.i
+
+# target to preprocess a source file
+ButtonIterator.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ButtonIterator.cpp.i
+.PHONY : ButtonIterator.cpp.i
+
+ButtonIterator.s: ButtonIterator.cpp.s
+.PHONY : ButtonIterator.s
+
+# target to generate assembly for a file
+ButtonIterator.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/ButtonIterator.cpp.s
+.PHONY : ButtonIterator.cpp.s
+
 CameraGame.obj: CameraGame.cpp.obj
 .PHONY : CameraGame.obj
 
@@ -505,6 +529,30 @@ DisplayFactory.s: DisplayFactory.cpp.s
 DisplayFactory.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/DisplayFactory.cpp.s
 .PHONY : DisplayFactory.cpp.s
+
+DrawNumber.obj: DrawNumber.cpp.obj
+.PHONY : DrawNumber.obj
+
+# target to build an object file
+DrawNumber.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/DrawNumber.cpp.obj
+.PHONY : DrawNumber.cpp.obj
+
+DrawNumber.i: DrawNumber.cpp.i
+.PHONY : DrawNumber.i
+
+# target to preprocess a source file
+DrawNumber.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/DrawNumber.cpp.i
+.PHONY : DrawNumber.cpp.i
+
+DrawNumber.s: DrawNumber.cpp.s
+.PHONY : DrawNumber.s
+
+# target to generate assembly for a file
+DrawNumber.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/DrawNumber.cpp.s
+.PHONY : DrawNumber.cpp.s
 
 Food.obj: Food.cpp.obj
 .PHONY : Food.obj
@@ -1154,6 +1202,30 @@ Timer.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/Timer.cpp.s
 .PHONY : Timer.cpp.s
 
+UI.obj: UI.cpp.obj
+.PHONY : UI.obj
+
+# target to build an object file
+UI.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/UI.cpp.obj
+.PHONY : UI.cpp.obj
+
+UI.i: UI.cpp.i
+.PHONY : UI.i
+
+# target to preprocess a source file
+UI.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/UI.cpp.i
+.PHONY : UI.cpp.i
+
+UI.s: UI.cpp.s
+.PHONY : UI.s
+
+# target to generate assembly for a file
+UI.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/UI.cpp.s
+.PHONY : UI.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1175,6 +1247,9 @@ help:
 	@echo ... Button.obj
 	@echo ... Button.i
 	@echo ... Button.s
+	@echo ... ButtonIterator.obj
+	@echo ... ButtonIterator.i
+	@echo ... ButtonIterator.s
 	@echo ... CameraGame.obj
 	@echo ... CameraGame.i
 	@echo ... CameraGame.s
@@ -1208,6 +1283,9 @@ help:
 	@echo ... DisplayFactory.obj
 	@echo ... DisplayFactory.i
 	@echo ... DisplayFactory.s
+	@echo ... DrawNumber.obj
+	@echo ... DrawNumber.i
+	@echo ... DrawNumber.s
 	@echo ... Food.obj
 	@echo ... Food.i
 	@echo ... Food.s
@@ -1289,6 +1367,9 @@ help:
 	@echo ... Timer.obj
 	@echo ... Timer.i
 	@echo ... Timer.s
+	@echo ... UI.obj
+	@echo ... UI.i
+	@echo ... UI.s
 .PHONY : help
 
 

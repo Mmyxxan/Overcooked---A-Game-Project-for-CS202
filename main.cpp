@@ -11,14 +11,57 @@
 #include <Storer.hpp>
 #include <Checker.hpp>
 #include <GameManager.hpp>
+#include <Screen.hpp>
+#include <UI.hpp>
 
 int main() {
-    GameManager* game;
-    game = new GameManager();
-    game -> init();
-    game -> run();
-    return 0;
+    Screen* firstScreen = new MenuScreen();
+    firstScreen -> init();
+
+    UI* ui = new UI(firstScreen);
+    ui -> init();
+    ui -> run();
 }
+
+// int main() {
+//     // GameManager* game;
+//     // game = new GameManager();
+//     // game -> init();
+//     // game -> run();
+
+
+//     Screen* firstScreen;
+//     firstScreen = new MenuScreen();
+//     firstScreen -> init();
+
+//     InitWindow(1400, 800, "OVERCOOKED");
+//     SetTargetFPS(50); 
+//     while (!WindowShouldClose()) 
+//     {
+//         BeginDrawing();
+
+//             ClearBackground(RAYWHITE);
+//             // BeginMode3D(*CameraGame::getCamera());
+
+//             // // Draw floor
+//             // for (int i = 0; i < 33; i++) {
+//             //     for (int j = -2; j < 30; j++) DrawCube({(float) i - 15.0f, (float) j - 15.0f, -3.0f}, 1.0f, 1.0f, 1.0f, ((i + j) % 2 == 0) ? BLACK : WHITE);
+//             // }
+            
+//             firstScreen -> render();
+//             firstScreen -> handleEvents();
+            
+//             // DrawFPS(10, 10);
+//             // EndMode3D();
+            
+//         EndDrawing();
+        
+//     }
+    
+//     CloseWindow();      
+    
+//     return 0;
+// }
 
 // int main(void)
 // {

@@ -2,8 +2,8 @@
 
 void GameManager::init() {
     // init window
-    InitWindow(screenWidth, screenHeight, "OVERCOOKED");
-    SetTargetFPS(50); 
+    // InitWindow(screenWidth, screenHeight, "OVERCOOKED");
+    // SetTargetFPS(50); 
 
     background = LoadTexture("bg.png");
 
@@ -50,19 +50,17 @@ void GameManager::handleGamePause() {
 }
 
 void GameManager::run() {
-    while (!WindowShouldClose()) 
-    {
-        BeginDrawing();
-
-            ClearBackground(RAYWHITE);
-            DrawTextureEx(background, {0.0f, 0.0f}, 0.0f, 1.0f, GRAY);
+   
+            DrawTextureEx(background, {0.0f, 0.0f}, 0.0f, 1.0f, LIGHTGRAY);
+            checker -> manage();
             BeginMode3D(*CameraGame::getCamera());
+            
             // Draw walls
             // DrawCube({2.0f, 2.0f, 2.0f}, 3.0f, 12.0f, 6.0f, YELLOW);
-            
+    
             // Draw floor
             for (int i = 0; i < 33; i++) {
-                for (int j = -2; j < 30; j++) DrawCube({(float) i - 15.0f, (float) j - 15.0f, -3.0f}, 1.0f, 1.0f, 1.0f, ((i + j) % 2 == 0) ? BLACK : WHITE);
+                for (int j = -2; j < 30; j++) DrawCube({(float) i - 15.0f, (float) j - 15.0f, -3.0f}, 1.0f, 1.0f, 1.0f, ((i + j) % 2 == 0) ? BROWN : WHITE);
             }
             handleGamePause();
             if (!pause -> Paused()) {
@@ -77,7 +75,7 @@ void GameManager::run() {
                 level -> getNextLevel();
             }
             }
-            checker -> manage();
+            checker -> manage(); // bring to run first to display buttons first and customer after
             level -> run();
 
             manager -> run();
@@ -87,16 +85,12 @@ void GameManager::run() {
             
             chef -> display();
             
-            DrawFPS(10, 10);
+            // DrawFPS(10, 10);
             EndMode3D();
 
             // if (!level -> run()) {
             //     std::cout << checker -> score << '\n';
             //     level -> getNextLevel();
             // }
-        EndDrawing();
-        
-    }
-    
-    CloseWindow();       
+      
 }

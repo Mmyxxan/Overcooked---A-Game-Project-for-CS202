@@ -3,6 +3,7 @@
 #define CHECKER_HPP
 #include "Libraries.hpp"
 #include "Timer.hpp"
+#include "Button.hpp"
 // #include "Factory.hpp"
 
 // class Area;
@@ -68,24 +69,29 @@ class Checker {
 private:
     // a map from string to sample food, if there is a mapping, assessed true. or assess from queue.top()
     int time;
-    
+    Button* system;
     Timer* timer;
 public:
     int score;
     // new thread to observe all objects and assess player
-    Checker() : score(0), timer(NULL), time(0) {
+    Checker() : score(0), timer(NULL), time(0), system(NULL) {
         // random sample food from file
         // timer = new Timer(0, Level::getTime());
         // timer -> start();
+        // get button
+        system = new CheckerButton();
     }
-    Checker(int time) : score(0), timer(NULL), time(time) {
+    Checker(int time) : score(0), timer(NULL), time(time), system(NULL) {
         // random sample food from file
         // timer = new Timer(0, Level::getTime());
         // timer -> start();
+        // create button and get texture for it
+        system = new CheckerButton();
     }
     void pause();
     void reset();
     void start();
+    void display();
     void manage(); 
     // throughout gameplay to check if time left,...
     void update(const std::string description); 

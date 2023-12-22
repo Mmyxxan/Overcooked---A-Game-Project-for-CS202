@@ -244,4 +244,6 @@ src/CMakeFiles/myexe.dir/Checker.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/stl_multiset.h \
  C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Timer.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ModelFactory.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Level.hpp

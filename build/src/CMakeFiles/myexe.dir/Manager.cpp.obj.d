@@ -252,6 +252,7 @@ src/CMakeFiles/myexe.dir/Manager.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ModelFactory.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Checker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Timer.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/TableHolder.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Table.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Customer.hpp \

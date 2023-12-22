@@ -118,7 +118,11 @@ void Storer::update(float x, float y) {
 }
 
 void Storer::update(char key) {
-
+    // if (isInArea(x, y) && key == KEY_RIGHT) fi -> next();
+    // how to let this store receive a lot of/ any piece information it wants  in the update function and we do not have to make many update functions
+    // pull information mode
+    // update space key associated to controller but not just in storer or cooker...
+    // controller -> all control
 }
 
 bool Storer::isInArea(float x, float y) {

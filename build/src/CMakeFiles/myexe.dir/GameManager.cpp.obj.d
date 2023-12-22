@@ -256,6 +256,7 @@ src/CMakeFiles/myexe.dir/GameManager.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Mediator.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Checker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Timer.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Storer.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Food.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/State.hpp \
@@ -276,5 +277,4 @@ src/CMakeFiles/myexe.dir/GameManager.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Table.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SpaceHolder.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerHolder.hpp \
- D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Screen.hpp \
- D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameAudio.hpp
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameInstruction.hpp

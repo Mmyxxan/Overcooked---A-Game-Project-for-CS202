@@ -17,23 +17,28 @@ public:
     Content() : description("") {
 
     }
+    Content(std::string description) : description(description) {} 
     void setDescription(std::string description);
     std::string getDescription();
+    // display instruction and end automatically, pop stack to display, end display continuing pop stack, push stack from 3rd party e.g. game manager
     // sth else
 };
 
 class GameInstruction {
 private:
-    Rectangle frame;
+    Texture** frames;
     Content* content;
 public:
-    GameInstruction() : content(NULL) {
+    GameInstruction() : content(NULL), frames(NULL) {
 
     }
+    void start() {} void end() {} // start display finish and end, when call display again call start again
     void setContent(Content* content);
     void changeContent();
     Content* getContent();
-    void display();
+    void display(bool isTriggered); // while standing in customer's area timer and new time 1s continuing while in customer
+    void auto_display(); // continue by frame and time for each frame and end itself
+
 };
 
 #endif

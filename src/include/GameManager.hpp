@@ -11,10 +11,13 @@
 #include "Level.hpp"
 #include "Checker.hpp"
 #include "Manager.hpp"
-#include "Screen.hpp"
+// #include "Screen.hpp"
 #include "PauseGame.hpp"
+#include "GameInstruction.hpp"
 
-class GameManager : public Screen {
+class GameManager
+//  : public Screen 
+{
     // linked list of active objects and linked list of unactive objects
     // int level; // namespace level
     // all initialized and display here;
@@ -24,6 +27,7 @@ private:
     Texture background;
     // naked object or all processing, if pressed, processed keys by process of the game manager?
     // mediator
+    GameInstruction* instruction;
     PauseGame* pause;
     Controller* controller;
     ControllableObject* chef;
@@ -43,11 +47,15 @@ public:
     // GameManager() : l(NULL), c(NULL), tables(NULL), storage(NULL), customer(NULL), kitchen(NULL) {
 
     // }
-    GameManager() : Screen(), level(NULL), mediator(NULL), kitchen(NULL), storage(NULL), chef(NULL), manager(NULL), checker(checker), controller(NULL), map(NULL), objects(NULL), pause(nullptr) {
+    GameManager() :
+    //  Screen(),
+      level(NULL), mediator(NULL), kitchen(NULL), storage(NULL), chef(NULL), manager(NULL), checker(checker), controller(NULL), map(NULL), objects(NULL), pause(nullptr), instruction(NULL) {
         // level = new Level(0);
         level = Level::getLevel();
     }
-    GameManager(int l) : Screen(), level(NULL), mediator(NULL), kitchen(NULL), storage(NULL), chef(NULL), manager(NULL), checker(checker), controller(NULL), map(NULL), objects(NULL) {
+    GameManager(int l) :
+    //  Screen(), 
+     level(NULL), mediator(NULL), kitchen(NULL), storage(NULL), chef(NULL), manager(NULL), checker(checker), controller(NULL), map(NULL), objects(NULL), pause(nullptr), instruction(NULL) {
         // level = new Level(0);
         level = Level::getLevel();
     }

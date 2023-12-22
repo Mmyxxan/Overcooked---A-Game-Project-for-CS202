@@ -1,9 +1,18 @@
 #include <ModelFactory.hpp>
 
+TextureFactory* TextureFactory::tf = nullptr;
+
+void TextureFactory::init() {
+    for (int i = 0; i < num; i++) {
+        textures[i] = new Texture(LoadTexture(files[i].c_str()));
+    }
+}
+
 ModelFactory* ModelFactory::mf = nullptr;
 
+
 void ModelFactory::init() { 
-    std::cerr << num << std::endl;
+    // std::cerr << num << std::endl;
     for (int i = 0; i < num; i++) {
         // models[i] = LoadModel("chef.glb");
         // models[i] = new Model();

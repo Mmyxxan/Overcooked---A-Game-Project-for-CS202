@@ -43,10 +43,26 @@ std::string MotionlessState::getFile() {
     return df -> getFile(description);
 }
 
+void CustomerState::init() {
+    if (state == State::outdated) {
+        valid = false; 
+        // customer -> detachfromSpace();
+    }
+    else {
+        timer = new Timer(0, getTime(state));
+        timer -> start();
+        // initCustomerDesire();
+        // bring to function init to virtual
+    }
+}
+
 void CustomerState::initCustomerDesire() {
     // std::cout << "init with customer " << customer -> getID() << '\n';
     if (state == State::functioning && !cd) {
         cd = new CustomerOrder(customer -> getSampleFood(), {4.4f, 5.0f, 5.0f});
+    }
+    if (state == State::functioning && !cd1) {
+        cd1 = new CustomerWaiting(customer -> getSampleFood(), timer);
     }
 }
 
@@ -140,7 +156,7 @@ int CustomerState::getTime(int state) {
     if (!valid) return 0;
     if (state == 2) return 30;
     if (state == 3) {
-        if (customer -> getAttachment()) return 10;
+        if (customer -> getAttachment()) return 5;
         return 0;
     }
     return 0;

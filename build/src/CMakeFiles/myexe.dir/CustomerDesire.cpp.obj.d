@@ -249,4 +249,6 @@ src/CMakeFiles/myexe.dir/CustomerDesire.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Area.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CameraGame.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Map.hpp \
- D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ModelFactory.hpp
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ModelFactory.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Timer.hpp

@@ -40,4 +40,13 @@ namespace Customers {
     const int outdated = 4;
 }
 
+namespace CreateScreen {
+    const int ExitScreen = 2;
+    const int GameScreen = 0;
+    const int SettingScreen = 1;
+    const int FirstGameScreen = 3;
+    const int SecondGameScreen = 4;
+    const int ThirdGameScreen = 5;
+}
+
 #endif

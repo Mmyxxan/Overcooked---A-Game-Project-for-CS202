@@ -13,6 +13,10 @@
 
 // }
 
+void Checker::display() {
+    
+}
+
 void Checker::pause() {
     if (timer) timer -> togglePause();
 }
@@ -31,6 +35,11 @@ void Checker::start() {
 
 void Checker::manage() {
     // std::cout << "checker is processing\n";
+    // draw time left and score
+    system -> display();
+    DrawRectangle(277, 130, 50, 40, PINK);
+    DrawRectangle(345, 130, 50, 40, PINK);
+    DrawRectangle(307, 180, 65, 38, PINK);
     if (!isTimeleft()) timer -> stop();
 }
 

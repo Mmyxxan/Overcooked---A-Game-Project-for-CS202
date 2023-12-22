@@ -84,29 +84,23 @@ protected:
     // handle state on self object and external movements
     Customer* customer;
     CustomerDesire* cd;
+    CustomerDesire* cd1;
     bool valid;
     int state;
     Timer* timer;
     // display sample food?
 public: 
-    CustomerState(int state, Customer* customer) : customer(customer), state(state), timer(NULL), valid(true), cd(NULL) {
-        if (state == State::outdated) {
-            valid = false; 
-            // customer -> detachfromSpace();
-        }
-        else {
-            timer = new Timer(0, getTime(state));
-            timer -> start();
-            // initCustomerDesire();
-            // bring to function init to virtual
-        }
+    CustomerState(int state, Customer* customer) : customer(customer), state(state), timer(NULL), valid(true), cd(NULL), cd1(NULL) {
+        // init();
     }  
+    void init();
     void displayDesire();
     void initCustomerDesire();
     virtual void pause();
-    CustomerState(Customer* customer) : customer(customer), state(2), timer(NULL), valid(true), cd(NULL) {
-        timer = new Timer(0, getTime(state));
-        timer -> start();
+    CustomerState(Customer* customer) : customer(customer), state(2), timer(NULL), valid(true), cd(NULL), cd1(NULL) {
+        // timer = new Timer(0, getTime(state));
+        // timer -> start();
+        // init();
         // initCustomerDesire();
     }
     bool interact();
@@ -129,8 +123,12 @@ public:
 class OldCustomerState : public CustomerState {
 public:
     // timer start here to get time
-    OldCustomerState(Customer* customer) : CustomerState(customer) {}
-    OldCustomerState(int state, Customer* customer) : CustomerState(state, customer) {}
+    OldCustomerState(Customer* customer) : CustomerState(customer) {
+        CustomerState::init();
+    }
+    OldCustomerState(int state, Customer* customer) : CustomerState(state, customer) {
+        CustomerState::init();
+    }
     OldCustomerState* getNextState(Customer* customer);
     std::string getFile(); 
     int getTime(int state); 
@@ -139,8 +137,12 @@ public:
 class YoungCustomerState : public CustomerState {
 public:
     // timer start here to get time
-    YoungCustomerState(Customer* customer) : CustomerState(customer) {}
-    YoungCustomerState(int state, Customer* customer) : CustomerState(state, customer) {}
+    YoungCustomerState(Customer* customer) : CustomerState(customer) {
+        CustomerState::init();
+    }
+    YoungCustomerState(int state, Customer* customer) : CustomerState(state, customer) {
+        CustomerState::init();
+    }
     YoungCustomerState* getNextState(Customer* customer);
     std::string getFile(); 
     int getTime(int state); 
