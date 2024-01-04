@@ -430,5 +430,23 @@
   "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\UI.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\UI.cpp",
   "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/UI.cpp",
   "output": "src/CMakeFiles/myexe.dir/UI.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\composite.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\composite.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/composite.cpp",
+  "output": "src/CMakeFiles/myexe.dir/composite.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\robot.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\robot.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/robot.cpp",
+  "output": "src/CMakeFiles/myexe.dir/robot.cpp.obj"
+},
+{
+  "directory": "D:/cs163/Overcooked---A-Game-Project-for-CS202/build/src",
+  "command": "C:\\mingw64\\bin\\g++.exe -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP @CMakeFiles/myexe.dir/includes_CXX.rsp -g -o CMakeFiles\\myexe.dir\\template.cpp.obj -c D:\\cs163\\Overcooked---A-Game-Project-for-CS202\\src\\template.cpp",
+  "file": "D:/cs163/Overcooked---A-Game-Project-for-CS202/src/template.cpp",
+  "output": "src/CMakeFiles/myexe.dir/template.cpp.obj"
 }
 ]

@@ -37,9 +37,18 @@ void Checker::manage() {
     // std::cout << "checker is processing\n";
     // draw time left and score
     system -> display();
-    DrawRectangle(277, 130, 50, 40, PINK);
-    DrawRectangle(345, 130, 50, 40, PINK);
-    DrawRectangle(307, 180, 65, 38, PINK);
+    // DrawRectangle(277, 130, 50, 40, PINK);
+    // DrawRectangle(345, 130, 50, 40, PINK);
+    // DrawRectangle(307, 180, 65, 38, PINK);
+    for (int i = 0; i < 3; i++) {
+        if (draw[i]) delete draw[i];
+    }
+    draw[0] = new DrawNumber(277, 130, 50, 40, timer -> getMinute());
+    draw[1] = new DrawNumber(345, 130, 50, 40, timer -> getSecond());
+    draw[2] = new DrawNumber(307, 180, 65, 38, score);
+    for (int i = 0; i < 3; i++) {
+        if (draw[i]) draw[i] -> draw();
+    }
     if (!isTimeleft()) timer -> stop();
 }
 
@@ -49,7 +58,7 @@ bool Checker::isTimeleft() {
 
 void Checker::update(const std::string description) {
     if (description == "right") {
-        score += 50;
+        score += 5;
         std::cout << score << std::endl;
     }
 }

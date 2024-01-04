@@ -13,6 +13,9 @@ void Customer::attach(Object* o) {
     if (!o) return;
     att = o;
     if (getFile() == "3DGodotRobot.glb") setSpace({0.0f, -3.0f, 1.0f});
+    else if (getFile() == "customer3.glb") {
+        setSpace({0.0f, 3.0f, 4.0f});
+    }
     else setSpace({0.0f, -4.0f, 0.0f});
     o -> setPos(Vector3Add(getPos(), getSpace()));
 }
@@ -41,6 +44,11 @@ void Customer::bringIntoState() {
         setAxis({1.0f, 0.0f, 0.0f});
         setDirection(90.0f);
         
+    }
+    else if (getFile() == "customer3.glb") {
+        setScale({2.2f, 2.2f, 2.2f});
+        setAxis({0.0f, 0.0f, 1.0f});
+        setDirection(0.0f);
     }
     else {
         setScale({8.0f, 8.0f, 8.0f});

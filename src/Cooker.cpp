@@ -42,7 +42,7 @@ void Cooker::display() {
     // }
     if (att) att -> display();
     displayTimer();
-    DrawModelEx(*model, position, axis, direction, scale, WHITE);
+    if (model) DrawModelEx(*model, position, axis, direction, scale, WHITE);
     // display statement;
 }
 

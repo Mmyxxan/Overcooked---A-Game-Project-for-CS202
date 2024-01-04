@@ -8,7 +8,7 @@
 #include "PauseGame.hpp"
 
 class ObjectHolder {
-private:
+protected:
     int num;
     Object** obj;
 public:
@@ -16,8 +16,18 @@ public:
         obj = new Object*[num];
         for (int i = 0; i < num; i++) obj[i] = nullptr;
     }
-    void init(Map* map);
+    virtual void init(Map* map);
     void run();
+};
+
+class ObjectHolder_2 : public ObjectHolder {
+public:
+    void init(Map* map);
+};
+
+class ObjectHolder_3 : public ObjectHolder {
+public:
+    void init(Map* map);
 };
 
 #endif

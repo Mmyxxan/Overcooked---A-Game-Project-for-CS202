@@ -1,5 +1,9 @@
 #include <Table.hpp>
 
+void Table::drawArea() {
+    if (area) area -> drawArea();
+}
+
 bool Table::receivable() {    
     Particle* p = sh -> manage();
     if (p && !p -> getAttachment()) {

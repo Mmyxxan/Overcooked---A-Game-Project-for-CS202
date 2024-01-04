@@ -95,7 +95,7 @@ public:
     }  
     void init();
     void displayDesire();
-    void initCustomerDesire();
+    void initCustomerDesire(Vector3 position);
     virtual void pause();
     CustomerState(Customer* customer) : customer(customer), state(2), timer(NULL), valid(true), cd(NULL), cd1(NULL) {
         // timer = new Timer(0, getTime(state));
@@ -117,6 +117,18 @@ public:
             delete timer;
             timer = nullptr;
         }
+    }
+};
+
+class CustomerState_2 : public CustomerState {
+    CustomerState_2(int state, Customer* customer) : CustomerState(state, customer) {
+        // init();
+    }  
+    CustomerState_2(Customer* customer) : CustomerState(customer) {
+        // timer = new Timer(0, getTime(state));
+        // timer -> start();
+        // init();
+        // initCustomerDesire();
     }
 };
 
@@ -148,10 +160,28 @@ public:
     int getTime(int state); 
 };
 
+class SpecialCustomerState : public CustomerState {
+public:
+    SpecialCustomerState(Customer* customer) : CustomerState(customer) {
+        CustomerState::init();
+    }
+    SpecialCustomerState(int state, Customer* customer) : CustomerState(state, customer) {
+        CustomerState::init();
+    }
+
+    SpecialCustomerState* getNextState(Customer* customer);
+    std::string getFile(); 
+    int getTime(int state); 
+};
+
 class TakeawayCustomerState : public CustomerState {
 public:
-    TakeawayCustomerState(Customer* customer) : CustomerState(customer) {}
-    TakeawayCustomerState(int state, Customer* customer) : CustomerState(state, customer) {}
+    TakeawayCustomerState(Customer* customer) : CustomerState(customer) {
+        CustomerState::init();
+    }
+    TakeawayCustomerState(int state, Customer* customer) : CustomerState(state, customer) {
+        CustomerState::init();
+    }
     TakeawayCustomerState* getNextState(Customer* customer);
     std::string getFile(); 
     int getTime(int state); 

@@ -1,5 +1,15 @@
 #include <TableHolder.hpp>
 
+Table* TableHolder_3::get() {
+    return t[0];
+}
+
+void TableHolder_2::manage() {
+    for (int i = 0; i < num; i++) {
+        // t[i] -> drawArea();
+    }
+}
+
 void TableHolder::init(Map* map) {
     head = t[0];
     for (int i = 0; i < num; i++) t[i] -> registerArea(map);

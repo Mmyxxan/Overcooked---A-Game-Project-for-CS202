@@ -713,6 +713,51 @@ src/CMakeFiles/myexe.dir/UI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/UI.cpp.s"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\UI.cpp -o CMakeFiles\myexe.dir\UI.cpp.s
 
+src/CMakeFiles/myexe.dir/composite.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/composite.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/composite.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/composite.cpp
+src/CMakeFiles/myexe.dir/composite.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/myexe.dir/composite.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/composite.cpp.obj -MF CMakeFiles\myexe.dir\composite.cpp.obj.d -o CMakeFiles\myexe.dir\composite.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\composite.cpp
+
+src/CMakeFiles/myexe.dir/composite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/composite.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\composite.cpp > CMakeFiles\myexe.dir\composite.cpp.i
+
+src/CMakeFiles/myexe.dir/composite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/composite.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\composite.cpp -o CMakeFiles\myexe.dir\composite.cpp.s
+
+src/CMakeFiles/myexe.dir/robot.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/robot.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/robot.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/robot.cpp
+src/CMakeFiles/myexe.dir/robot.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/myexe.dir/robot.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/robot.cpp.obj -MF CMakeFiles\myexe.dir\robot.cpp.obj.d -o CMakeFiles\myexe.dir\robot.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\robot.cpp
+
+src/CMakeFiles/myexe.dir/robot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/robot.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\robot.cpp > CMakeFiles\myexe.dir\robot.cpp.i
+
+src/CMakeFiles/myexe.dir/robot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/robot.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\robot.cpp -o CMakeFiles\myexe.dir\robot.cpp.s
+
+src/CMakeFiles/myexe.dir/template.cpp.obj: src/CMakeFiles/myexe.dir/flags.make
+src/CMakeFiles/myexe.dir/template.cpp.obj: src/CMakeFiles/myexe.dir/includes_CXX.rsp
+src/CMakeFiles/myexe.dir/template.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for-CS202/src/template.cpp
+src/CMakeFiles/myexe.dir/template.cpp.obj: src/CMakeFiles/myexe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/myexe.dir/template.cpp.obj"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/myexe.dir/template.cpp.obj -MF CMakeFiles\myexe.dir\template.cpp.obj.d -o CMakeFiles\myexe.dir\template.cpp.obj -c D:\cs163\Overcooked---A-Game-Project-for-CS202\src\template.cpp
+
+src/CMakeFiles/myexe.dir/template.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexe.dir/template.cpp.i"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cs163\Overcooked---A-Game-Project-for-CS202\src\template.cpp > CMakeFiles\myexe.dir\template.cpp.i
+
+src/CMakeFiles/myexe.dir/template.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexe.dir/template.cpp.s"
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cs163\Overcooked---A-Game-Project-for-CS202\src\template.cpp -o CMakeFiles\myexe.dir\template.cpp.s
+
 # Object files for target myexe
 myexe_OBJECTS = \
 "CMakeFiles/myexe.dir/Area.cpp.obj" \
@@ -757,7 +802,10 @@ myexe_OBJECTS = \
 "CMakeFiles/myexe.dir/Table.cpp.obj" \
 "CMakeFiles/myexe.dir/TableHolder.cpp.obj" \
 "CMakeFiles/myexe.dir/Timer.cpp.obj" \
-"CMakeFiles/myexe.dir/UI.cpp.obj"
+"CMakeFiles/myexe.dir/UI.cpp.obj" \
+"CMakeFiles/myexe.dir/composite.cpp.obj" \
+"CMakeFiles/myexe.dir/robot.cpp.obj" \
+"CMakeFiles/myexe.dir/template.cpp.obj"
 
 # External object files for target myexe
 myexe_EXTERNAL_OBJECTS =
@@ -805,9 +853,12 @@ D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/li
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/TableHolder.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/Timer.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/UI.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/composite.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/robot.cpp.obj
+D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/template.cpp.obj
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/build.make
 D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a: src/CMakeFiles/myexe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking CXX static library D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\StaticLibs\libmyexe.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX static library D:\cs163\Overcooked---A-Game-Project-for-CS202\bin\Windows64\Debug\StaticLibs\libmyexe.a"
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && $(CMAKE_COMMAND) -P CMakeFiles\myexe.dir\cmake_clean_target.cmake
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\myexe.dir\link.txt --verbose=$(VERBOSE)
 

@@ -14,7 +14,7 @@ private:
         init();
     }
     void init() {
-        customer_font = LoadFont("BeautifulEveryTime-Dg4m.ttf");
+        customer_font = LoadFontEx("BeautifulEveryTime-Dg4m.ttf", 200, nullptr, 50);
     }
 public:
     Font getCustomerFont() {

@@ -1,5 +1,39 @@
 #include <KitchenHolder.hpp>
 
+void KitchenHolder_3::run() {
+    // o[0] -> drawArea();
+    o[0] -> displayTimer();
+    // o[0] -> displayAttachment();
+}
+
+void KitchenHolder_3::init() {
+    o[0] = new Cooker("baked");
+
+    o[0] -> setPos({15.5f, 13.7f, -4.0f});
+
+    o[0] -> removeArea({13.0f, 8.0f}, 7.0f, 7.0f);
+}
+
+void KitchenHolder_2::run() {
+    // o[0] -> drawArea();
+    // o[1] -> drawArea();
+    o[0] -> displayTimer();
+    o[1] -> displayTimer();
+    o[1] -> displayAttachment();
+    o[0] -> displayAttachment();
+}
+
+void KitchenHolder_2::init() {
+    o[0] = new Cooker("baked");
+    o[1] = new Cooker("baked");
+
+    o[0] -> setPos({4.4f, 5.0f, 3.0f});
+    o[1] -> setPos({7.5f, 5.0f, 3.0f});
+
+    o[0] -> removeArea({2.0f, 9.0f}, 6.0f, 6.0f);
+    o[1] -> removeArea({7.0f, 9.0f}, 6.0f, 6.0f);
+}
+
 void KitchenHolder::init() {
     // create
     o[0] = new Cooker("baked");

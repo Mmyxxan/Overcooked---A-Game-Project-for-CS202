@@ -9,7 +9,7 @@
 #include "Storer.hpp"
 
 class StorageHolder {
-private: 
+protected:
     int num;
     Object** o;
     // Mediator* m;
@@ -18,8 +18,22 @@ public:
         o = new Object*[num];
         for (int i = 0; i < num; i++) o[i] = nullptr;
     }
-    void init();
+    virtual void init();
     void setMediator(Mediator* m, Map* map);
+    virtual void run();
+};
+
+class StorageHolder_2 : public StorageHolder {
+public:
+    StorageHolder_2() : StorageHolder() {}
+    void init();
+    void run();
+};
+
+class StorageHolder_3 : public StorageHolder {
+public:
+    StorageHolder_3() : StorageHolder() {}
+    void init();
     void run();
 };
 

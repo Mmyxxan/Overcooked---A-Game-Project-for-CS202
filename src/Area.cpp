@@ -22,6 +22,14 @@ void Area::removeArea(Vector2 root, float height, float width) {
     }
 }
 
+void Area::drawArea() {
+    for (int i = 0; i < x; i++) {
+        for (int j = 0; j < y; j++) {
+            if (cell[i][j] == !isControllable) DrawCube({(float) i - BIAS, (float) j - BIAS, -4.0f}, 1.0f, 1.0f, 1.0f, BLACK);
+        }
+    }
+}
+
 bool Area::isMovable(float cx, float cy) {
     if (!cell[(int) (cx + BIAS)][(int) (cy + BIAS)]) return true;
     if (cell[(int) (cx + BIAS)][(int) (cy + BIAS) - 1] && cell[(int) (cx + BIAS)][(int) (cy + BIAS) + 1] && cell[(int) (cx + BIAS) + 1][(int) (cy + BIAS)] && cell[(int) (cx + BIAS) - 1][(int) (cy + BIAS)]) return false;

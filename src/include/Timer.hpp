@@ -3,7 +3,7 @@
 
 class Timer {
 public:
-    Timer(int minutes, int seconds) : totalSeconds(minutes * 60 + seconds), isRunning(true), timerThread(NULL), _minute(minutes), _second(seconds), isPaused(false) {
+    Timer(int minutes, int seconds) : totalSeconds(minutes * 60 + seconds), isRunning(true), timerThread(NULL), _minute(seconds / 60), _second(seconds % 60), isPaused(false) {
         if (totalSeconds <= 0) {
             std::cerr << "Invalid timer duration." << std::endl;
             isRunning.store(false);

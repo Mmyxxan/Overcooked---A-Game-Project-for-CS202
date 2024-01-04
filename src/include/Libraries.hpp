@@ -11,6 +11,7 @@
 #include <atomic>
 #include <queue>
 #include <set>
+#include <algorithm>
 #ifndef LIBRARIES_HPP
 #define LIBRARIES_HPP
 
@@ -47,6 +48,7 @@ namespace CreateScreen {
     const int FirstGameScreen = 3;
     const int SecondGameScreen = 4;
     const int ThirdGameScreen = 5;
+    const int MenuScreen = 6;
 }
 
 #endif

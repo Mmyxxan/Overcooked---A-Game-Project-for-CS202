@@ -56,13 +56,17 @@ void CustomerState::init() {
     }
 }
 
-void CustomerState::initCustomerDesire() {
+void CustomerState::initCustomerDesire(Vector3 position) {
     // std::cout << "init with customer " << customer -> getID() << '\n';
     if (state == State::functioning && !cd) {
-        cd = new CustomerOrder(customer -> getSampleFood(), {4.4f, 5.0f, 5.0f});
+        // cd = new CustomerOrder(customer -> getSampleFood(), {4.4f, 5.0f, 5.0f});
+        cd = new CustomerOrder(customer -> getSampleFood(), position);
     }
     if (state == State::functioning && !cd1) {
         cd1 = new CustomerWaiting(customer -> getSampleFood(), timer);
+    }
+    if (state == State::invalid && !cd1) {
+        cd1 = new CustomerEating(customer -> getSampleFood(), timer);
     }
 }
 
@@ -73,7 +77,7 @@ void CustomerState::pause() {
 }
 
 void CustomerState::handleRequest() {
-    initCustomerDesire();
+    initCustomerDesire(Vector3Add(customer -> getPos(), {0.0f, 0.0f, 5.5f}));
     if (state == 2 && customer -> getAttachment()) {
         customer -> changeState(getNextState(customer));
         return;
@@ -103,6 +107,7 @@ void CustomerState::handleRequest() {
 
 void CustomerState::displayDesire() {
     if (cd) cd -> display();
+    if (cd1) cd1 -> display();
 }
 
 //virtual, young and old customer differentiate
@@ -177,6 +182,28 @@ bool CustomerState::interact() {
 
 int CustomerState::getState() {
     return state;
+}
+
+SpecialCustomerState* SpecialCustomerState::getNextState(Customer* customer) {
+    if (!valid) return this;
+    // if (!(timer -> finish())) return this;s
+    timer -> stop();
+    SpecialCustomerState* temp = new SpecialCustomerState(++state, customer);
+    return temp;
+}
+
+std::string SpecialCustomerState::getFile() {
+    return "customer3.glb";
+}
+
+int SpecialCustomerState::getTime(int state) {
+    if (!valid) return 0;
+    if (state == 2) return 30;
+    if (state == 3) {
+        if (customer -> getAttachment()) return 3;
+        return 0;
+    }
+    return 0;
 }
 
 YoungCustomerState* YoungCustomerState::getNextState(Customer* customer) {

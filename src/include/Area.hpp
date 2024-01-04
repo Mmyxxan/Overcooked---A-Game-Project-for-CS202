@@ -17,6 +17,7 @@ public:
         }
     }
     // void registerArea(Map* map);
+    void drawArea();
     void resetArea();
     bool isInArea(float cx, float cy);
     bool isMovable(float cx, float cy);

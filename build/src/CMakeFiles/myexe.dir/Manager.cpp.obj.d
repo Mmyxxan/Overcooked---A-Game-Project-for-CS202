@@ -244,6 +244,13 @@ src/CMakeFiles/myexe.dir/Manager.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/stl_set.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_multiset.h \
  C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
+ C:/mingw64/include/c++/13.1.0/algorithm \
+ C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
+ C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
+ C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
+ C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
+ C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ControllableObject.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Object.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Area.hpp \
@@ -253,6 +260,8 @@ src/CMakeFiles/myexe.dir/Manager.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Checker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Timer.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/DrawNumber.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SharedResources.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/TableHolder.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Table.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Customer.hpp \
@@ -263,7 +272,6 @@ src/CMakeFiles/myexe.dir/Manager.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Cooker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/DisplayFactory.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerDesire.hpp \
- D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SharedResources.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Particle.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerFactory.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Level.hpp \

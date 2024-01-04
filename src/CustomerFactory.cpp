@@ -27,6 +27,9 @@ Customer* CustomerFactory::get(Level* l, Customer* c) {
                 break;
         }
         break;
+    case 3:
+        customer -> status = new SpecialCustomerState(customer);
+        break;
     default:
         customer -> status = new OldCustomerState(customer);
         break;

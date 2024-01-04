@@ -16,14 +16,16 @@ void Food::init() {
     else state = new MotionlessState("cannotwrap", {}); // spoiled
     // all first rotate in model factory;
     setModel();
-    setAxis({0.0f, 0.0f, 1.0f});
-    setDirection(0.0f);
+    setAxis({1.0f, 0.0f, 0.0f});
+    setDirection(180.0f);
     if (o) setPos(o -> getPos());
     setScale({0.02f, 0.02f, 0.02f});
+    // std::cout << getDescription() << '\n';
 }
 
 void Food::display() {
     // state -> action();
+    // std::cout << direction << '\n';
     DrawModelEx(*model, position, axis, direction, scale, WHITE);
     // DrawModelEx(model, {position.x + 5.0f, position.y, position.z}, axis, direction, scale, WHITE);
     // std::cout << file << '\n';
@@ -46,11 +48,23 @@ std::string Food::getDescription() {
 
 bool SampleFood::assess(Object* o) {
     std::cout << o -> getDescription() << " " << this -> getDescription() << '\n';
-    return (o -> getDescription() == this -> getDescription());
+    std::string s1 = o -> getDescription();
+    std::string s2 = this -> getDescription();
+    sort(s1.begin(), s1.end());
+    sort(s2.begin(), s2.end());
+    // return (o -> getDescription() == this -> getDescription());
+    return (s1 == s2);
     // return (o -> getSet() == this -> getSet());
 }
 
 bool SampleFood::assess(Food* f) {
-    return (f -> getDescription() == this -> getDescription());
+    std::string s1 = f -> getDescription();
+    std::string s2 = this -> getDescription();
+    sort(s1.begin(), s1.end());
+    sort(s2.begin(), s2.end());
+    // return (o -> getDescription() == this -> getDescription());
+    return (s1 == s2);
+
+    // return (f -> getDescription() == this -> getDescription());
     // return (f -> getSet() == this -> getSet());
 }

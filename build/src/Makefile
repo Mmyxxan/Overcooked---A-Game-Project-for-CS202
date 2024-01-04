@@ -1226,6 +1226,78 @@ UI.cpp.s:
 	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/UI.cpp.s
 .PHONY : UI.cpp.s
 
+composite.obj: composite.cpp.obj
+.PHONY : composite.obj
+
+# target to build an object file
+composite.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/composite.cpp.obj
+.PHONY : composite.cpp.obj
+
+composite.i: composite.cpp.i
+.PHONY : composite.i
+
+# target to preprocess a source file
+composite.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/composite.cpp.i
+.PHONY : composite.cpp.i
+
+composite.s: composite.cpp.s
+.PHONY : composite.s
+
+# target to generate assembly for a file
+composite.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/composite.cpp.s
+.PHONY : composite.cpp.s
+
+robot.obj: robot.cpp.obj
+.PHONY : robot.obj
+
+# target to build an object file
+robot.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/robot.cpp.obj
+.PHONY : robot.cpp.obj
+
+robot.i: robot.cpp.i
+.PHONY : robot.i
+
+# target to preprocess a source file
+robot.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/robot.cpp.i
+.PHONY : robot.cpp.i
+
+robot.s: robot.cpp.s
+.PHONY : robot.s
+
+# target to generate assembly for a file
+robot.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/robot.cpp.s
+.PHONY : robot.cpp.s
+
+template.obj: template.cpp.obj
+.PHONY : template.obj
+
+# target to build an object file
+template.cpp.obj:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/template.cpp.obj
+.PHONY : template.cpp.obj
+
+template.i: template.cpp.i
+.PHONY : template.i
+
+# target to preprocess a source file
+template.cpp.i:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/template.cpp.i
+.PHONY : template.cpp.i
+
+template.s: template.cpp.s
+.PHONY : template.s
+
+# target to generate assembly for a file
+template.cpp.s:
+	cd /d D:\cs163\Overcooked---A-Game-Project-for-CS202\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\myexe.dir\build.make src/CMakeFiles/myexe.dir/template.cpp.s
+.PHONY : template.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1370,6 +1442,15 @@ help:
 	@echo ... UI.obj
 	@echo ... UI.i
 	@echo ... UI.s
+	@echo ... composite.obj
+	@echo ... composite.i
+	@echo ... composite.s
+	@echo ... robot.obj
+	@echo ... robot.i
+	@echo ... robot.s
+	@echo ... template.obj
+	@echo ... template.i
+	@echo ... template.s
 .PHONY : help
 
 

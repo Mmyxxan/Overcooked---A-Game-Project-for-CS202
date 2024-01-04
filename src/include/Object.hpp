@@ -31,6 +31,9 @@ public:
     // ModelFactory* mf;
 public: 
     // void registerPause(PauseGame* pause);
+    virtual void displayAttachment();
+    virtual void displayTimer();
+    virtual void drawArea();
     virtual void pause();
     virtual std::set<std::string> getSet();
     void registerArea(Map* map);

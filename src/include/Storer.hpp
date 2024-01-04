@@ -17,20 +17,23 @@ protected:
     int state;
 public:
     Storer() : Object("storer"), state(0), m(NULL), food(NULL), food_description(""), ks(NULL), fi(NULL) {
-        fi = new FoodIterator();
-        fi -> init();
+        // fi = new FoodIterator();
+        // fi -> init();
         area = new Area(200, 200, false);
         init();
     }
     Storer(std::string food_description) : Object("storer"), state(0), m(NULL), food(NULL), food_description(food_description), ks(NULL), fi(NULL) {
-        fi = new FoodIterator();
-        fi -> init();
+        if (food_description != "trash" && food_description != "trash2" && food_description != "trash3") {
+            fi = new FoodIterator();
+            fi -> init();
+        }
         area = new Area(200, 200, false);
         init();
     }
+    void displayFoodList();
     std::string getFile();
-    KitchenState* loadState(std::ifstream &in, KitchenState* &ks);
-    void init();
+    virtual KitchenState* loadState(std::ifstream &in, KitchenState* &ks);
+    virtual void init();
     void setMediator(Mediator* m);
     void display();
     void update(float x, float y);
@@ -39,10 +42,27 @@ public:
     virtual void Process();
 };
 
+class Storer_2 : public Storer {
+public:
+    Storer_2(std::string food_description) : Storer(food_description) {}
+    void init();
+};
+
 class TrashBin : public Storer {
 private:
 public:
     TrashBin() : Storer("trash") {}
+    TrashBin(std::string description) : Storer(description) {}
     void Process();
 };
 
+class TrashBin_2 : public TrashBin {
+private:
+public:
+    TrashBin_2() : TrashBin("trash2") {}
+};
+
+class TrashBin_3 : public TrashBin {
+public:
+    TrashBin_3() : TrashBin("trash3") {}
+};

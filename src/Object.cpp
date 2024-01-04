@@ -8,6 +8,18 @@
 //     pause -> registerObject(this);
 // }
 
+void Object::displayAttachment() {
+    if (att) att -> display();
+}
+
+void Object::displayTimer() {
+
+}
+
+void Object::drawArea() {
+    if (area) area -> drawArea();
+}
+
 std::set<std::string> Object::getSet() {
     return {};
 }

@@ -1,6 +1,7 @@
 #pragma once
 #ifndef DISPLAYFACTORY_HPP
 #define DISPLAYFACTORY_HPP
+
 #include "Libraries.hpp"
 
 class DisplayFactory {

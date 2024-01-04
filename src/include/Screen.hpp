@@ -8,6 +8,8 @@
 #include "ButtonIterator.hpp"
 #include "GameManager.hpp"
 #include "GameInstruction.hpp"
+#include "CameraGame.hpp"
+#include "DrawNumber.hpp"
 
 // can be copied from dictionary
 // texture factory
@@ -44,14 +46,6 @@ public:
     void init();
 };
 
-class GameScreen : public Screen {
-public:
-    GameScreen() : Screen() {}
-    void handleEvents();
-    void render();
-    void init();
-};
-
 class ExitScreen : public Screen {
 public:
     ExitScreen() : Screen() {}
@@ -68,9 +62,50 @@ public:
     void init();
 };
 
-class FirstGameScreen : public Screen {
+class PauseScreen : public Screen {
+private:
 public:
-    FirstGameScreen() : Screen() {}
+    PauseScreen(GameManager* game) : Screen() {
+        Screen::game = game;
+    }
+    void handleEvents();
+    void render();
+    void init();
+};
+
+class GameScreen : public Screen {
+private:
+    Screen* pauseScreen;
+public:
+    GameScreen(GameManager* game) : Screen(), pauseScreen(NULL) {
+        Screen::game = game;
+    }
+    void handleEvents();
+    void render();
+    void init();
+};
+
+class FirstGameScreen : public GameScreen {
+public:
+    FirstGameScreen(GameManager* game) : GameScreen(game) {}
+    // void handleEvents();
+    // void render();
+    void init();
+};
+
+class SecondGameScreen : public GameScreen {
+public:
+    SecondGameScreen(GameManager* game) : GameScreen(game) {}
+    void init();
+};
+
+class GameUpScreen : public Screen {
+private:
+    DrawNumber* draw;
+public:
+    GameUpScreen(GameManager* game) : Screen(), draw(NULL) {
+        Screen::game = game;
+    }
     void handleEvents();
     void render();
     void init();

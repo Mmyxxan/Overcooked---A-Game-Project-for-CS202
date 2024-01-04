@@ -85,6 +85,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/myexe.dir/Timer.cpp.obj.d"
   "CMakeFiles/myexe.dir/UI.cpp.obj"
   "CMakeFiles/myexe.dir/UI.cpp.obj.d"
+  "CMakeFiles/myexe.dir/composite.cpp.obj"
+  "CMakeFiles/myexe.dir/composite.cpp.obj.d"
+  "CMakeFiles/myexe.dir/robot.cpp.obj"
+  "CMakeFiles/myexe.dir/robot.cpp.obj.d"
+  "CMakeFiles/myexe.dir/template.cpp.obj"
+  "CMakeFiles/myexe.dir/template.cpp.obj.d"
   "D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.a"
   "D:/cs163/Overcooked---A-Game-Project-for-CS202/bin/Windows64/Debug/StaticLibs/libmyexe.pdb"
 )

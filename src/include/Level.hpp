@@ -61,8 +61,9 @@ public:
         std::cout << "getting next level" << '\n';
     }
     static int getTime() {
-        if (l -> level == 1) return 60;
-        return 120;
+        if (l -> level == 1) return 120;
+        else if (l -> level == 2) return 150;
+        return 180;
     }
     // level is a static class, static function getCustomerTime....
 };

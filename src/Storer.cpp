@@ -33,6 +33,24 @@ void TrashBin::Process() {
     return;
 }
 
+void Storer_2::init() {
+    std::ifstream in;
+    in.open((food_description + "2.txt").c_str());
+    if (!in.is_open()) {
+        std::cout << "cannot open " << food_description << ".txt"<< '\n';
+        return;
+    }
+    KitchenState* temp = nullptr;
+    ks = loadState(in, temp);
+    temp = ks;
+    KitchenState* cont = loadState(in, temp);
+    while (cont) {
+        temp -> setNextState(cont);
+        temp = temp -> getNextState();
+        cont = loadState(in, temp);
+    };
+}
+
 std::string Storer::getFile() {
     // std::cout << state << '\n';
     // std::cout << ks -> getState(state) -> getFile() << '\n';
@@ -92,7 +110,7 @@ void Storer::init() {
 
 void Storer::display() {
     setModel();
-    DrawModelEx(*model, position, axis, direction, scale, WHITE);
+    if (model) DrawModelEx(*model, position, axis, direction, scale, WHITE);
 }
 
 void Storer::setMediator(Mediator* m) {
@@ -108,8 +126,9 @@ void Storer::update(float x, float y) {
     state = State::rest;
     if (isInArea(x, y)) {
         state = State::activated;
-        if (IsKeyPressed(KEY_RIGHT)) fi -> next();
-        if (IsKeyPressed(KEY_LEFT)) fi -> back();
+        if (IsKeyPressed(KEY_RIGHT) && fi) fi -> next();
+        if (IsKeyPressed(KEY_LEFT) && fi) fi -> back();
+        displayFoodList();
     }
     if (isInArea(x, y) && IsKeyPressed(KEY_SPACE)) {
         state = State::functioning;
@@ -127,6 +146,10 @@ void Storer::update(char key) {
 
 bool Storer::isInArea(float x, float y) {
     return area -> isInArea(x, y);
+}
+
+void Storer::displayFoodList() {
+    if (fi) fi -> display();
 }
 
 void Storer::Process() {

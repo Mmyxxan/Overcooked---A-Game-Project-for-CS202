@@ -10,7 +10,7 @@
 #include "PauseGame.hpp"
 
 class KitchenHolder {
-private:    
+protected:
     int num;
     Object** o;
 public:
@@ -18,8 +18,25 @@ public:
         o = new Object*[num];
         for (int i = 0; i < num; i++) o[i] = nullptr;
     }
-    void init();
+    virtual void init();
     void setMediator(Mediator* m, Map* map, PauseGame* pause);
+    virtual void run();
+};
+
+class KitchenHolder_2 : public KitchenHolder {
+public:
+    KitchenHolder_2() : KitchenHolder() {
+    }
+    void init();
+    void run();
+};
+
+class KitchenHolder_3 : public KitchenHolder {
+public:
+    KitchenHolder_3() : KitchenHolder() {
+
+    }
+    void init();
     void run();
 };
 

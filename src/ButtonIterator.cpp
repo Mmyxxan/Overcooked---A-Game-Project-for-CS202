@@ -16,6 +16,7 @@ void ButtonIterator::add(Button* button) {
 
 void ButtonIterator::init() {
     iter = buttons.begin();
+    (*iter) -> update(true);
     // iter = end();
 }
 

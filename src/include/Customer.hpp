@@ -64,4 +64,9 @@ public:
     void bringIntoState();
 };
 
+class Customer_2 : public Customer {
+public:
+    Customer_2(int ID) : Customer(ID) {}
+};
+
 #endif

@@ -100,4 +100,18 @@ public:
     CheckerButton() : Button("checker") {}
 };
 
+class ResumeButton : public SelectedButton {
+public: 
+    ResumeButton() : SelectedButton("resume") {
+        setNum(3);
+    }
+};
+
+class Exit1Button : public SelectedButton {
+public:
+    Exit1Button() : SelectedButton("exit") {
+        setNum(6);
+    }
+};
+
 #endif

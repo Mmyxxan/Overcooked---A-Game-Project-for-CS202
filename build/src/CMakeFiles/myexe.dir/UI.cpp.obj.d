@@ -243,6 +243,13 @@ src/CMakeFiles/myexe.dir/UI.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/stl_set.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_multiset.h \
  C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
+ C:/mingw64/include/c++/13.1.0/algorithm \
+ C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
+ C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
+ C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
+ C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
+ C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Screen.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameAudio.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
@@ -261,6 +268,8 @@ src/CMakeFiles/myexe.dir/UI.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Mediator.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Checker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Timer.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/DrawNumber.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SharedResources.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Storer.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Food.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/State.hpp \
@@ -273,7 +282,6 @@ src/CMakeFiles/myexe.dir/UI.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/MediatorChecker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/DisplayFactory.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerDesire.hpp \
- D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SharedResources.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/FoodIterator.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/KitchenHolder.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Manager.hpp \

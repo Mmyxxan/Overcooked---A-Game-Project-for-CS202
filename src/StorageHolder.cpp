@@ -1,5 +1,32 @@
 #include <StorageHolder.hpp>
 
+void StorageHolder_3::init() {
+    o[0] = new Storer_2("dough2");
+    o[1] = new TrashBin_3();
+
+    o[0] -> removeArea({20.0f, 8.0f}, 7.0f, 7.0f);
+    o[1] -> removeArea({12.0f, -10.0f}, 7.0f, 7.0f);
+}
+
+void StorageHolder_3::run() {
+    // o[0] -> drawArea();
+    // o[1] -> drawArea();
+    o[0] -> display();
+}
+
+void StorageHolder_2::init() {
+    o[0] = new Storer("dough");
+    o[1] = new TrashBin_2();
+
+    o[0] -> removeArea({16.0f, 7.5f}, 4.0f, 4.0f);
+    o[1] -> removeArea({-2.0f, 2.5f}, 6.0f, 7.0f);
+}
+
+void StorageHolder_2::run() {
+    // o[0] -> drawArea();
+    // o[1] -> drawArea();
+}
+
 void StorageHolder::init() {
     // create
     o[0] = new Storer("dough");
@@ -12,10 +39,10 @@ void StorageHolder::init() {
     o[1] -> setFile("trash.glb");
     o[1] -> setModel();
 
-    o[1] -> rotate(Axis::y, PI/2);
-    o[1] -> rotate(Axis::x, -PI/2);
-    o[1] -> rotate(Axis::y, PI/2);
-    o[1] -> rotate(Axis::x, -PI/2);
+    // o[1] -> rotate(Axis::y, PI/2);
+    // o[1] -> rotate(Axis::x, -PI/2);
+    // o[1] -> rotate(Axis::y, PI/2);
+    // o[1] -> rotate(Axis::x, -PI/2);
 
     o[0] -> setAxis({1.0f, 0.0f, 0.0f});
     o[0] -> setDirection(90.0f);

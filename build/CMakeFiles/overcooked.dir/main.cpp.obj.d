@@ -220,6 +220,11 @@ CMakeFiles/overcooked.dir/main.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/stl_set.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_multiset.h \
  C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
+ C:/mingw64/include/c++/13.1.0/algorithm \
+ C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
+ C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
+ C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
+ C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Object.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Area.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CameraGame.hpp \
@@ -233,6 +238,8 @@ CMakeFiles/overcooked.dir/main.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Mediator.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Checker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/DrawNumber.hpp \
+ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SharedResources.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/State.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Storer.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/FoodIterator.hpp \
@@ -244,7 +251,6 @@ CMakeFiles/overcooked.dir/main.cpp.obj: \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/MediatorChecker.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/DisplayFactory.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerDesire.hpp \
- D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SharedResources.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameManager.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ObjectHolder.hpp \
  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/PauseGame.hpp \

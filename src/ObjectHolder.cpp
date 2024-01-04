@@ -1,5 +1,34 @@
 #include <ObjectHolder.hpp>
 
+void ObjectHolder_3::init(Map* map) {
+    obj[0] = new Object("map3.glb", {-5.0f, 12.0f, -15.0f}, Axis::Oz, 180.0f, {2.7f, 2.7f, 2.7f});
+    // obj[1] = new Object("map3.glb", {-5.0f, 12.0f, -12.0f}, Axis::Oz, 180.0f, {4.0f, 4.0f, 4.0f});
+
+    for (int i = 0; i < num; i++) {
+        if (obj[i]) obj[i] -> setModel();
+    }
+
+    for (int i = 0; i < num; i++) {
+        if (obj[i]) {
+            obj[i] -> registerArea(map);
+        }
+    }
+}
+
+void ObjectHolder_2::init(Map* map) {
+    obj[0] = new Object("MA_map2.glb", {0.0f, 10.0f, -7.0f}, Axis::Ox, 90.0f, {2.0f, 2.0f, 2.0f});
+
+    for (int i = 0; i < num; i++) {
+        if (obj[i]) obj[i] -> setModel();
+    }
+
+    for (int i = 0; i < num; i++) {
+        if (obj[i]) {
+            obj[i] -> registerArea(map);
+        }
+    }
+}
+
 void ObjectHolder::init(Map* map) {
     // create
     for (int i = 0; i < 5; i++) {
@@ -27,40 +56,41 @@ void ObjectHolder::init(Map* map) {
     for (int i = 0; i < num; i++) {
         if (obj[i]) obj[i] -> setModel();
     }
-    obj[0] -> rotate(Axis::y, PI/2);
-    obj[0] -> rotate(Axis::x, -PI/2);
-    obj[0] -> rotate(Axis::y, PI/2);
-    obj[0] -> rotate(Axis::x, -PI/2);
+    // obj[0] -> rotate(Axis::y, PI/2);
+    // obj[0] -> rotate(Axis::x, -PI/2);
+    // obj[0] -> rotate(Axis::y, PI/2);
+    // obj[0] -> rotate(Axis::x, -PI/2);
     
-    obj[5] -> rotate(Axis::y, PI/2);
-    obj[5] -> rotate(Axis::x, -PI/2);
-    obj[5] -> rotate(Axis::y, PI/2);
-    obj[5] -> rotate(Axis::x, -PI/2);
+    // obj[5] -> rotate(Axis::y, PI/2);
+    // obj[5] -> rotate(Axis::x, -PI/2);
+    // obj[5] -> rotate(Axis::y, PI/2);
+    // obj[5] -> rotate(Axis::x, -PI/2);
 
-    obj[6] -> rotate(Axis::y, PI/2);
-    obj[6] -> rotate(Axis::x, -PI/2);
-    obj[6] -> rotate(Axis::y, PI/2);
-    obj[6] -> rotate(Axis::x, -PI/2);
+    // obj[6] -> rotate(Axis::y, PI/2);
+    // obj[6] -> rotate(Axis::x, -PI/2);
+    // obj[6] -> rotate(Axis::y, PI/2);
+    // obj[6] -> rotate(Axis::x, -PI/2);
 
-    obj[11] -> rotate(Axis::y, PI/2);
-    obj[11] -> rotate(Axis::x, -PI/2);
-    obj[11] -> rotate(Axis::y, PI/2);
-    obj[11] -> rotate(Axis::x, -PI/2);
+    // obj[11] -> rotate(Axis::y, PI/2);
+    // obj[11] -> rotate(Axis::x, -PI/2);
+    // obj[11] -> rotate(Axis::y, PI/2);
+    // obj[11] -> rotate(Axis::x, -PI/2);
 
-    obj[12] -> rotate(Axis::y, PI/2);
-    obj[12] -> rotate(Axis::x, -PI/2);
-    obj[12] -> rotate(Axis::y, PI/2);
-    obj[12] -> rotate(Axis::x, -PI/2);
+    // obj[12] -> rotate(Axis::y, PI/2);
+    // obj[12] -> rotate(Axis::x, -PI/2);
+    // obj[12] -> rotate(Axis::y, PI/2);
+    // obj[12] -> rotate(Axis::x, -PI/2);
 
-    obj[14] -> rotate(Axis::y, PI/2);
-    obj[14] -> rotate(Axis::x, -PI/2);
-    obj[14] -> rotate(Axis::y, PI/2);
-    obj[14] -> rotate(Axis::x, -PI/2);
+    // obj[14] -> rotate(Axis::y, PI/2);
+    // obj[14] -> rotate(Axis::x, -PI/2);
+    // obj[14] -> rotate(Axis::y, PI/2);
+    // obj[14] -> rotate(Axis::x, -PI/2);
 
-    obj[15] -> rotate(Axis::y, PI/2);
-    obj[15] -> rotate(Axis::x, -PI/2);
-    obj[15] -> rotate(Axis::y, PI/2);
-    obj[15] -> rotate(Axis::x, -PI/2);
+    // obj[15] -> rotate(Axis::y, PI/2);
+    // obj[15] -> rotate(Axis::x, -PI/2);
+    // obj[15] -> rotate(Axis::y, PI/2);
+    // obj[15] -> rotate(Axis::x, -PI/2);
+    
     // obj[0] -> setModel();
     // obj[0] -> rotate(Axis::y, PI/2);
     // obj[0] -> rotate(Axis::x, -PI/2);

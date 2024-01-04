@@ -8,6 +8,8 @@
 #include "ModelFactory.hpp"
 #include "Button.hpp"
 #include "Timer.hpp"
+#include "DrawNumber.hpp"
+#include "CameraGame.hpp"
 
 class CustomerDesire {
 protected:
@@ -23,6 +25,7 @@ class CustomerOrder : public CustomerDesire {
 private:
     Model* food3d;
     Vector3 pos;
+
 public:
     CustomerOrder(SampleFood* food, Vector3 pos) : food3d(NULL), pos(pos) {
         this -> food = food;
@@ -37,9 +40,12 @@ private:
     Texture* frame;
     Texture* content;
     Timer* timer;
+    DrawNumber** draw;
 public:
-    CustomerWaiting(SampleFood* food, Timer* timer) : frame(NULL), timer(timer), content(NULL) {
+    CustomerWaiting(SampleFood* food, Timer* timer) : frame(NULL), timer(timer), content(NULL), draw(NULL) {
         this -> food = food;
+        draw = new DrawNumber*[2];
+        for (int i = 0; i < 2; i++) draw[i] = nullptr;
         setUp();
     }
     void setUp();
@@ -48,9 +54,19 @@ public:
 
 class CustomerEating : public CustomerDesire {
 private:
-
+    Texture* frame;
+    Texture* content;
+    Timer* timer;
+    DrawNumber** draw;
 public:
-    CustomerEating() {}
+    CustomerEating(SampleFood* food, Timer* timer) : frame(NULL), timer(timer), content(NULL) {
+        this -> food = food;
+        draw = new DrawNumber*[2];
+        for (int i = 0; i < 2; i++) draw[i] = nullptr;
+        setUp();
+    }
+    void setUp();
+    void display();
 };
 
 #endif

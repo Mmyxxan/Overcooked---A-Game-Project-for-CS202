@@ -14,6 +14,16 @@ private:
     Model** models;
 public:
     ModelFactory() : num(0), files({}), models(NULL) {
+        files.push_back("customer3.glb");
+        files.push_back("map3.glb");
+        files.push_back("MA_map3.glb");
+        files.push_back("MA_map2.glb");
+        files.push_back("oniontomatobakeddough.glb");
+        files.push_back("pepperonionionbakeddough.glb");
+        files.push_back("sausagebakeddough.glb");
+        files.push_back("pepperonibakeddough.glb");
+        files.push_back("onionbakeddough.glb");
+        files.push_back("pizza.glb");
         files.push_back("base.glb");
         files.push_back("cabinet.glb");
         files.push_back("decorated.glb");
@@ -70,12 +80,23 @@ private:
     Texture** textures;
 public:
     TextureFactory() : num(0), files({}), textures(NULL) {
+        files.push_back("bg4.png");
+        files.push_back("tomato.png");
+        files.push_back("pepperoni.png");
+        files.push_back("onion.png");
+        files.push_back("sausage.png");
+        files.push_back("dough.png");
+        files.push_back("food.png");
+        files.push_back("selectedresume.png");
+        files.push_back("waiting.png");
+        files.push_back("eating.png");
         files.push_back("selectedfirstmap.png");
         files.push_back("selectedsecondmap.png");
         files.push_back("selectedthirdmap.png");
         files.push_back("bg.png");
         files.push_back("bg1.png");
         files.push_back("bg2.png");
+        files.push_back("bg3.png");
         files.push_back("checker.png");
         files.push_back("start.png");
         files.push_back("setting.png");

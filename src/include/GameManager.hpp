@@ -21,7 +21,7 @@ class GameManager
     // linked list of active objects and linked list of unactive objects
     // int level; // namespace level
     // all initialized and display here;
-private:
+protected:
     const int screenWidth = 1400;
     const int screenHeight = 800;
     Texture background;
@@ -59,8 +59,9 @@ public:
         // level = new Level(0);
         level = Level::getLevel();
     }
-    void handleGamePause();
-    void init(); 
+    bool handleGamePause();
+    virtual void init(); 
+    void pauseGame();
     // {
     //     // init all things
     //     // set checker for mediator checker
@@ -69,6 +70,20 @@ public:
 
         
     // }   
+    int getScore();
+    virtual void run();
+    bool isTimeLeft();
+};
+
+class FirstGame : public GameManager {
+public:
+    void init();
+    void run();
+};
+
+class SecondGame : public GameManager {
+public:
+    void init();
     void run();
 };
 

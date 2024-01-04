@@ -2,7 +2,7 @@
 
 void UI::init() {
     InitWindow(screenWidth, screenHeight, "OVERCOOKED");
-    SetTargetFPS(50); 
+    SetTargetFPS(60); 
 }
 
 void UI::handle() {

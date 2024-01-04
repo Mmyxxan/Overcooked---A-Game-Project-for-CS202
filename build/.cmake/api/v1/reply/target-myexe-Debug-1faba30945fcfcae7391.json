@@ -128,7 +128,10 @@
 				39,
 				40,
 				41,
-				42
+				42,
+				43,
+				44,
+				45
 			]
 		}
 	],
@@ -199,7 +202,10 @@
 				39,
 				40,
 				41,
-				42
+				42,
+				43,
+				44,
+				45
 			]
 		}
 	],
@@ -461,6 +467,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/UI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/composite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/robot.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/template.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

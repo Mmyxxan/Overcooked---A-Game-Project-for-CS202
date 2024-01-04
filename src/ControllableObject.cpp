@@ -53,7 +53,7 @@ void ControllableObject::setLeft() {
     orientation = 'L';
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
-        tmp -> setDirection(-90.0f);
+        // tmp -> setDirection(-90.0f);
         // tmp -> display();
     }
     setDirection(-90.0f);
@@ -62,7 +62,7 @@ void ControllableObject::setRight() {
     orientation = 'R';
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
-        tmp -> setDirection(90.0f);
+        // tmp -> setDirection(90.0f);s
         // tmp -> display();
     }
     setDirection(90.0f);
@@ -71,7 +71,7 @@ void ControllableObject::setUp() {
     orientation = 'U';
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
-        tmp -> setDirection(180.0f);
+        // tmp -> setDirection(180.0f);
         // tmp -> display();
     }
     setDirection(180.0f);
@@ -80,7 +80,7 @@ void ControllableObject::setDown() {
     orientation = 'D';
     if (this -> getAttachment()) {
         Object* tmp = this -> getAttachment();
-        tmp -> setDirection(0.0f);
+        // tmp -> setDirection(0.0f);
         // tmp -> display();
     }
     setDirection(0.0f);

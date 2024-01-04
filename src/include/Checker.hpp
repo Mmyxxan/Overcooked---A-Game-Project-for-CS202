@@ -4,6 +4,7 @@
 #include "Libraries.hpp"
 #include "Timer.hpp"
 #include "Button.hpp"
+#include "DrawNumber.hpp"
 // #include "Factory.hpp"
 
 // class Area;
@@ -71,22 +72,31 @@ private:
     int time;
     Button* system;
     Timer* timer;
+    DrawNumber** draw;
 public:
     int score;
     // new thread to observe all objects and assess player
-    Checker() : score(0), timer(NULL), time(0), system(NULL) {
+    Checker() : score(0), timer(NULL), time(0), system(NULL), draw(NULL) {
         // random sample food from file
         // timer = new Timer(0, Level::getTime());
         // timer -> start();
         // get button
         system = new CheckerButton();
+        draw = new DrawNumber*[3];
+        for (int i = 0; i < 3; i++) {
+            draw[i] = nullptr;
+        }
     }
-    Checker(int time) : score(0), timer(NULL), time(time), system(NULL) {
+    Checker(int time) : score(0), timer(NULL), time(time), system(NULL), draw(NULL) {
         // random sample food from file
         // timer = new Timer(0, Level::getTime());
         // timer -> start();
         // create button and get texture for it
         system = new CheckerButton();
+        draw = new DrawNumber*[3];
+        for (int i = 0; i < 3; i++) {
+            draw[i] = nullptr;
+        }
     }
     void pause();
     void reset();
