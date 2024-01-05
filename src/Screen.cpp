@@ -34,7 +34,10 @@ void PauseScreen::handleEvents() {
         temp = button_iterator -> get();
         // if (temp -> getDescription() == "selectedresume") game -> pauseGame();
         // else 
-        setNextScreen(createScreen(temp -> getNum()));
+        if (temp -> getNum() == CreateScreen::SettingScreen) {
+            temp -> trigger();
+        }
+        else setNextScreen(createScreen(temp -> getNum()));
     }
 }
 
@@ -193,7 +196,10 @@ void MenuScreen::handleEvents() {
     else if (IsKeyPressed(KEY_SPACE)) {
         Button* temp = nullptr;
         temp = button_iterator -> get();
-        setNextScreen(createScreen(temp -> getNum()));
+        if (temp -> getNum() == CreateScreen::SettingScreen) {
+            temp -> trigger();
+        }
+        else setNextScreen(createScreen(temp -> getNum()));
     }
 }
 

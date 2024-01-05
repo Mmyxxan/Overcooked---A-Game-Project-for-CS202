@@ -159,7 +159,7 @@ bool CustomerState::isValid() {
 
 int CustomerState::getTime(int state) {
     if (!valid) return 0;
-    if (state == 2) return 30;
+    if (state == 2) return 40;
     if (state == 3) {
         if (customer -> getAttachment()) return 5;
         return 0;
@@ -198,7 +198,7 @@ std::string SpecialCustomerState::getFile() {
 
 int SpecialCustomerState::getTime(int state) {
     if (!valid) return 0;
-    if (state == 2) return 30;
+    if (state == 2) return 40;
     if (state == 3) {
         if (customer -> getAttachment()) return 3;
         return 0;
@@ -220,7 +220,7 @@ std::string YoungCustomerState::getFile() {
 
 int YoungCustomerState::getTime(int state) {
     if (!valid) return 0;
-    if (state == 2) return 30;
+    if (state == 2) return 40;
     if (state == 3) {
         if (customer -> getAttachment()) return 10;
         return 0;
@@ -235,7 +235,7 @@ std::string OldCustomerState::getFile() {
 
 int OldCustomerState::getTime(int state) {
     if (!valid) return 0;
-    if (state == 2) return 25;
+    if (state == 2) return 35;
     if (state == 3) {
         if (customer -> getAttachment()) return 15;
         return 0;

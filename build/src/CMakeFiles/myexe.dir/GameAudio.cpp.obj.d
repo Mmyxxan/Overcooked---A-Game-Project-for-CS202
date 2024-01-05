@@ -249,4 +249,7 @@ src/CMakeFiles/myexe.dir/GameAudio.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
  C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
  C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
- C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h
+ C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
+ C:/mingw64/include/c++/13.1.0/mutex \
+ C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
+ C:/mingw64/include/c++/13.1.0/bits/unique_lock.h

@@ -4,6 +4,7 @@
 
 #include "Libraries.hpp"
 #include "ModelFactory.hpp"
+#include "GameAudio.hpp"
 
 // pause button, <> arrow keys of fridge iterator must be associated with the controller
 // composition of keys controlled, ctrl + A? by controller 
@@ -56,11 +57,18 @@ public:
 };
 
 class SettingButton : public SelectedButton {
+private:
+    int state;
+    Texture* texture;
 public:
-    SettingButton() : SelectedButton("setting") {
+    SettingButton() : SelectedButton("setting"), state(0), texture(NULL) {
         setNum(1);
+        // if (GameAudio::getAudio() -> isBeingPaused()) state = 1;
+        // if (state) texture = TextureFactory::getTextureFactory() -> getTexture("off.png");
+        // else texture = TextureFactory::getTextureFactory() -> getTexture("on.png");
     }
     void trigger();
+    void display();
 };
 
 class ExitButton : public SelectedButton {

@@ -243,6 +243,10 @@ CMakeFiles/overcooked.dir/main.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Mediator.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Checker.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp \
+  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameAudio.hpp \
+  C:/mingw64/include/c++/13.1.0/mutex \
+  C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
+  C:/mingw64/include/c++/13.1.0/bits/unique_lock.h \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/DrawNumber.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/SharedResources.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/State.hpp \
@@ -268,7 +272,6 @@ CMakeFiles/overcooked.dir/main.cpp.obj: D:/cs163/Overcooked---A-Game-Project-for
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerHolder.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameInstruction.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Screen.hpp \
-  D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameAudio.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ButtonIterator.hpp \
   D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/UI.hpp
 
@@ -282,6 +285,14 @@ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Manager.hpp:
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/KitchenHolder.hpp:
 
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/StorageHolder.hpp:
+
+D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/PauseGame.hpp:
+
+D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ObjectHolder.hpp:
+
+D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameManager.hpp:
+
+D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerDesire.hpp:
 
 C:/mingw64/include/c++/13.1.0/bits/stl_bvector.h:
 
@@ -475,8 +486,6 @@ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ControllableObject.hp
 
 C:/mingw64/include/c++/13.1.0/bits/exception_defines.h:
 
-D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ObjectHolder.hpp:
-
 C:/mingw64/x86_64-w64-mingw32/include/math.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
@@ -595,6 +604,8 @@ C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h:
 
 _deps/raylib_cpp-src/include/Image.hpp:
 
+C:/mingw64/include/c++/13.1.0/mutex:
+
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/State.hpp:
 
 _deps/raylib_cpp-src/include/Gamepad.hpp:
@@ -685,8 +696,6 @@ _deps/raylib_cpp-src/include/TextureUnmanaged.hpp:
 
 C:/mingw64/include/c++/13.1.0/bits/locale_facets.h:
 
-D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameManager.hpp:
-
 C:/mingw64/include/c++/13.1.0/cwctype:
 
 C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
@@ -775,8 +784,6 @@ _deps/raylib_cpp-src/include/raylib-cpp.hpp:
 
 C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h:
 
-D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/PauseGame.hpp:
-
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Area.hpp:
 
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/ModelFactory.hpp:
@@ -786,6 +793,10 @@ _deps/raylib_cpp-src/include/Vector3.hpp:
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Mediator.hpp:
 
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Button.hpp:
+
+C:/mingw64/include/c++/13.1.0/bits/std_mutex.h:
+
+C:/mingw64/include/c++/13.1.0/bits/unique_lock.h:
 
 C:/mingw64/include/c++/13.1.0/bits/memoryfwd.h:
 
@@ -808,5 +819,3 @@ D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/GameInstruction.hpp:
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
 
 D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/Level.hpp:
-
-D:/cs163/Overcooked---A-Game-Project-for-CS202/src/include/CustomerDesire.hpp:

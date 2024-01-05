@@ -3,12 +3,48 @@
 #define GAMEAUDIO_HPP
 
 #include "Libraries.hpp"
+#include <mutex>
+
 
 class GameAudio {
 private:
-    
-public:
+    const std::string file = "whistle.mp3";
+    static GameAudio* audio;
+    Music* music;
+    float timePlayed;
+    bool isPaused;
+    bool stopThread;
+    std::thread musicThread;
+    std::mutex audioMutex;
+    GameAudio() : music(nullptr), timePlayed(0.0f), isPaused(false), stopThread(false) {
+        InitAudioDevice();
+        music = new Music(LoadMusicStream(file.c_str()));
+        PlayMusicStream(*music);
 
+        // Start the background music thread
+        musicThread = std::thread(&GameAudio::musicThreadFunction, this);
+    }
+public:
+    ~GameAudio() {
+        stopThread = true;  // Signal the thread to stop
+        musicThread.join(); // Wait for the thread to finish
+        delete music;
+        CloseAudioDevice();
+    }
+
+    static GameAudio* getAudio() {
+        if (!audio) audio = new GameAudio();
+        return audio;
+    }
+    bool isBeingPaused() {
+        return isPaused;
+    }
+    void play();
+    void restart();
+    void togglePause();
+
+private:
+    void musicThreadFunction();
 };
 
 #endif

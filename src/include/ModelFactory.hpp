@@ -80,6 +80,8 @@ private:
     Texture** textures;
 public:
     TextureFactory() : num(0), files({}), textures(NULL) {
+        files.push_back("on.png");
+        files.push_back("off.png");
         files.push_back("bg4.png");
         files.push_back("tomato.png");
         files.push_back("pepperoni.png");

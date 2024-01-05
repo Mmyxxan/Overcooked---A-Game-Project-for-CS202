@@ -4,6 +4,7 @@
 
 #include "Libraries.hpp"
 #include "Screen.hpp"
+#include "GameAudio.hpp"
 
 class UI {
 private:

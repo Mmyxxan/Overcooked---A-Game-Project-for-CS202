@@ -193,9 +193,9 @@ src/clean: src/CMakeFiles/myexe.dir/clean
 # Target rules for target CMakeFiles/overcooked.dir
 
 # All Build rule for target.
-CMakeFiles/overcooked.dir/all: src/CMakeFiles/myexe.dir/all
 CMakeFiles/overcooked.dir/all: _deps/raylib-build/raylib/CMakeFiles/raylib.dir/all
 CMakeFiles/overcooked.dir/all: _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/glfw.dir/all
+CMakeFiles/overcooked.dir/all: src/CMakeFiles/myexe.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\overcooked.dir\build.make CMakeFiles/overcooked.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\overcooked.dir\build.make CMakeFiles/overcooked.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\cs163\Overcooked---A-Game-Project-for-CS202\build\CMakeFiles --progress-num=70,71 "Built target overcooked"

@@ -15,7 +15,9 @@ void UI::handle() {
 }
 
 void UI::run() {
+    GameAudio::getAudio();
     while (!WindowShouldClose()) {
+        // GameAudio::getAudio() -> play();
         BeginDrawing();
             ClearBackground(RAYWHITE);
 

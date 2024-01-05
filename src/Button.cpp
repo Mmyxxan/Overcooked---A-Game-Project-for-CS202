@@ -10,8 +10,23 @@ void ExitButton::trigger() {
     
 }
 
-void SettingButton::trigger() {
+void SettingButton::display() {
+    if (GameAudio::getAudio() -> isBeingPaused()) state = 1;
+    if (state) texture = TextureFactory::getTextureFactory() -> getTexture("off.png");
+    else texture = TextureFactory::getTextureFactory() -> getTexture("on.png");
+    setTexture();
+    if (button) {
+        // if (description == "checker") std::cout << "drawing checker\n";
+        DrawTextureEx(*button, position, 0.0f, 1.0f, color);
+    }
+    if (texture) DrawTextureEx(*texture, position, 0.0f, 1.0f, WHITE);
+}
 
+void SettingButton::trigger() {
+    state ^= 1;
+    GameAudio::getAudio() -> togglePause();
+    if (state) texture = TextureFactory::getTextureFactory() -> getTexture("off.png");
+    else texture = TextureFactory::getTextureFactory() -> getTexture("on.png");
 }
 
 // void StartButton::display() {
